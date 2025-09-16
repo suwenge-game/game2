@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# 禁止爬取重复内容
+Disallow: /assets/
+Disallow: /data/
+Disallow: /game-data-collection/
+
+# 允许爬取主要页面
+Allow: /
+Allow: /index.html
+Allow: /categories
+
+Sitemap: https://gamehub.com/sitemap.xml
+
+# GameHub - 綜合遊戲專題網站
+# 獨特內容: Bloxd io, Masked Special Forces, GTA Simulator

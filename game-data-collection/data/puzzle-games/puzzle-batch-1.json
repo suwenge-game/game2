@@ -1,0 +1,62 @@
+[
+  {
+    "game_name": "2048",
+    "game_link": "https://www.onlinegames.io/2048/",
+    "game_description": "2048数字拼图游戏，合并相同数字达到2048",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Tetris",
+    "game_link": "https://www.onlinegames.io/tetris/",
+    "game_description": "俄罗斯方块，经典的方块消除游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Sudoku",
+    "game_link": "https://www.onlinegames.io/sudoku/",
+    "game_description": "数独，数字逻辑推理游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Candy Crush",
+    "game_link": "https://www.onlinegames.io/candy-crush/",
+    "game_description": "糖果传奇，三消类益智游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Match 3 Puzzle",
+    "game_link": "https://www.onlinegames.io/match-3-puzzle/",
+    "game_description": "三消拼图，匹配三个相同元素的游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Word Search",
+    "game_link": "https://www.onlinegames.io/word-search/",
+    "game_description": "单词搜索，在字母网格中寻找单词",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Crossword Puzzle",
+    "game_link": "https://www.onlinegames.io/crossword-puzzle/",
+    "game_description": "填字游戏，根据提示填写单词",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Jigsaw Puzzle",
+    "game_link": "https://www.onlinegames.io/jigsaw-puzzle/",
+    "game_description": "拼图游戏，将碎片拼成完整图片",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Memory Game",
+    "game_link": "https://www.onlinegames.io/memory-game/",
+    "game_description": "记忆游戏，翻牌配对训练记忆力",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Block Puzzle",
+    "game_link": "https://www.onlinegames.io/block-puzzle/",
+    "game_description": "方块拼图，将方块放入网格中",
+    "game_category": "益智游戏"
+  }
+]

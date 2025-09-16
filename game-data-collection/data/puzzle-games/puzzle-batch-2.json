@@ -1,0 +1,62 @@
+[
+  {
+    "game_name": "Mahjong",
+    "game_link": "https://www.onlinegames.io/mahjong/",
+    "game_description": "麻将，中国传统益智游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Chess",
+    "game_link": "https://www.onlinegames.io/chess/",
+    "game_description": "国际象棋，策略性棋类游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Checkers",
+    "game_link": "https://www.onlinegames.io/checkers/",
+    "game_description": "跳棋，经典的棋类游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Solitaire",
+    "game_link": "https://www.onlinegames.io/solitaire/",
+    "game_description": "纸牌接龙，单人纸牌游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Bubble Shooter",
+    "game_link": "https://www.onlinegames.io/bubble-shooter/",
+    "game_description": "泡泡射击，射击彩色泡泡的游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Connect 4",
+    "game_link": "https://www.onlinegames.io/connect-4/",
+    "game_description": "四子棋，连接四个相同棋子的游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Tic Tac Toe",
+    "game_link": "https://www.onlinegames.io/tic-tac-toe/",
+    "game_description": "井字棋，经典的两人对战游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Minesweeper",
+    "game_link": "https://www.onlinegames.io/minesweeper/",
+    "game_description": "扫雷，经典的逻辑推理游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Snake",
+    "game_link": "https://www.onlinegames.io/snake/",
+    "game_description": "贪吃蛇，控制蛇吃食物的经典游戏",
+    "game_category": "益智游戏"
+  },
+  {
+    "game_name": "Pac-Man",
+    "game_link": "https://www.onlinegames.io/pac-man/",
+    "game_description": "吃豆人，经典的迷宫游戏",
+    "game_category": "益智游戏"
+  }
+]

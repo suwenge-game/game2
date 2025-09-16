@@ -1,0 +1,62 @@
+[
+  {
+    "game_name": "Rebel Forces",
+    "game_link": "https://www.onlinegames.io/rebel-forces/",
+    "game_description": "反叛军，扮演反叛军进行射击战斗",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Rome Simulator",
+    "game_link": "https://www.onlinegames.io/rome-simulator/",
+    "game_description": "罗马模拟器，古罗马时代的射击模拟游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Awesome Pirates",
+    "game_link": "https://www.onlinegames.io/awesome-pirates/",
+    "game_description": "超棒海盗，海盗主题的射击游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Skibidi Toilet Shooting",
+    "game_link": "https://www.onlinegames.io/skibidi-toilet-shooting/",
+    "game_description": "Skibidi马桶射击，马桶主题射击游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Mech Shooter",
+    "game_link": "https://www.onlinegames.io/mech-shooter/",
+    "game_description": "机甲射击手，控制机甲进行射击战斗",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Deer Hunter",
+    "game_link": "https://www.onlinegames.io/deer-hunter/",
+    "game_description": "鹿猎人，狩猎射击游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Tank War Simulator",
+    "game_link": "https://www.onlinegames.io/tank-war-simulator/",
+    "game_description": "坦克战争模拟器，驾驶坦克进行战斗",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Blocky Combat Swat",
+    "game_link": "https://www.onlinegames.io/blocky-combat-swat/",
+    "game_description": "方块战斗特警，方块风格的特警射击游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Time Shooter",
+    "game_link": "https://www.onlinegames.io/time-shooter/",
+    "game_description": "时间射击手，时间控制的射击游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Army Combat",
+    "game_link": "https://www.onlinegames.io/army-combat/",
+    "game_description": "军队战斗，军事主题射击游戏",
+    "game_category": "射击游戏"
+  }
+]

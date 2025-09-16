@@ -1,0 +1,62 @@
+[
+  {
+    "game_name": "Zombie Apocalypse Shooter",
+    "game_link": "https://www.onlinegames.io/zombie-apocalypse-shooter/",
+    "game_description": "僵尸末日射击游戏，在僵尸世界中生存和战斗",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "GunSpin",
+    "game_link": "https://www.onlinegames.io/gunspin/",
+    "game_description": "枪械旋转游戏，旋转枪械进行射击",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Rooftop Snipers",
+    "game_link": "https://www.onlinegames.io/rooftop-snipers/",
+    "game_description": "屋顶狙击手，在屋顶上进行狙击对战",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "The Last io",
+    "game_link": "https://www.onlinegames.io/the-last-io/",
+    "game_description": "最后的io游戏，末日生存射击游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "FNaF Shooter",
+    "game_link": "https://www.onlinegames.io/fnaf-shooter/",
+    "game_description": "玩具熊的五夜后宫射击版，恐怖射击游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Squid Shooter",
+    "game_link": "https://www.onlinegames.io/squid-shooter/",
+    "game_description": "鱿鱼射击游戏，控制鱿鱼进行射击战斗",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Pixel Survival",
+    "game_link": "https://www.onlinegames.io/pixel-survival/",
+    "game_description": "像素生存游戏，像素风格的生存射击",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Fortnite Z",
+    "game_link": "https://www.onlinegames.io/fortnite-z/",
+    "game_description": "堡垒之夜Z，大逃杀射击游戏",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Rooftop Duel",
+    "game_link": "https://www.onlinegames.io/rooftop-duel/",
+    "game_description": "屋顶决斗，在屋顶上进行射击决斗",
+    "game_category": "射击游戏"
+  },
+  {
+    "game_name": "Wasteland Shooters",
+    "game_link": "https://www.onlinegames.io/wasteland-shooters/",
+    "game_description": "废土射击手，后末日世界射击游戏",
+    "game_category": "射击游戏"
+  }
+]

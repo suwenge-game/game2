@@ -1,135 +1,143 @@
-# GameHub 遊戲站
+# 🎮 Game2 游戏网站
 
-一個遵循 Google SEO 最佳實踐的響應式網頁遊戲平台。
+一个遵循 Google SEO 最佳实践的响应式网页游戏平台，包含166个精选游戏。
 
-## 🎮 功能特色
+## ✨ 功能特色
 
-- **10+ 款精選射擊遊戲**：包括 Bloxd io、GTA Simulator、FPS Simulator 等
-- **響應式設計**：完美適配桌面、平板、手機
-- **即點即玩**：使用 iframe 嵌入，無需跳轉
-- **智能搜索**：即時搜索和分類篩選
-- **SEO 優化**：遵循 Google 官方 SEO 建議
+- **166个精选游戏**：包括动作、射击、竞速、解谜、模拟、运动等各类游戏
+- **响应式设计**：完美适配桌面、平板、手机
+- **幻灯片播放**：英雄区域自动播放和手动控制
+- **智能搜索**：即时搜索和分类筛选
+- **100%缩略图覆盖**：所有游戏都有高质量缩略图
+- **SEO优化**：遵循 Google 官方 SEO 建议
 
-## 📁 項目結構
+## 📊 项目统计
+
+- **总文件数**: 722个
+- **游戏数量**: 166个
+- **缩略图数量**: 197个
+- **代码行数**: 2,785行
+
+## 📁 项目结构
 
 ```
-GameHub/
-├── index.html              # 主頁面
-├── 404.html               # 404 錯誤頁面
-├── robots.txt             # 搜索引擎爬蟲規則
-├── sitemap.xml            # 網站地圖
-├── .htaccess              # Apache 服務器配置
-├── assets/                # 靜態資源
+Game2/
+├── index.html              # 主页面
+├── 404.html               # 404错误页面
+├── robots.txt             # 搜索引擎爬虫规则
+├── sitemap.xml            # 网站地图
+├── assets/                # 静态资源
 │   ├── css/
-│   │   └── style.css      # 樣式文件
+│   │   └── style.css      # 样式文件
 │   ├── js/
-│   │   └── script.js      # JavaScript 邏輯
-│   └── images/            # 遊戲縮略圖
+│   │   └── script.js      # JavaScript逻辑
+│   └── images/            # 游戏缩略图 (197个)
 ├── data/
-│   └── games.json         # 遊戲數據
-└── pages/                 # 未來擴展頁面
+│   └── games.json         # 游戏数据 (166个游戏)
+├── game-data-collection/  # 数据收集工具
+│   ├── data/              # 原始游戏数据
+│   ├── docs/              # 文档
+│   ├── scripts/           # 采集脚本
+│   └── thumbnails/        # 缩略图资源 (156个)
+└── pages/                 # 未来扩展页面
 ```
 
-## 🚀 SEO 優化特性
+## 🎯 游戏分类
 
-### 1. 結構化數據
-- **JSON-LD 格式**：網站和遊戲集合的結構化標記
-- **Schema.org 標準**：符合 Google 推薦的數據格式
-- **豐富摘要**：提升搜索結果展示效果
+### 动作游戏 (27个)
+- Bloxd io、Masked Special Forces、GTA Simulator等
 
-### 2. Meta 標籤優化
-- **標題標籤**：包含關鍵詞和品牌名稱
-- **描述標籤**：吸引點擊的詳細描述
-- **Open Graph**：社交媒體分享優化
-- **Twitter Cards**：Twitter 分享優化
+### 射击游戏 (90个)
+- Fragen、DTA 6、FPS Simulator、Crazy Strike Force等
 
-### 3. 技術 SEO
-- **XML Sitemap**：完整的網站地圖
-- **Robots.txt**：搜索引擎爬蟲指導
-- **.htaccess 配置**：URL 重寫、緩存、安全頭
-- **404 錯誤頁面**：用戶友好的錯誤處理
+### 竞速游戏 (39个)
+- 各种驾驶、漂移、赛车游戏
 
-### 4. 性能優化
-- **圖片壓縮**：本地生成的優化縮略圖
-- **CSS/JS 壓縮**：減少文件大小
-- **緩存策略**：合理的資源緩存設置
-- **響應式設計**：移動優先的設計理念
+### 解谜游戏 (8个)
+- 益智类、解谜类游戏
 
-## 🛠️ 技術棧
+### 模拟游戏 (1个)
+- 模拟器类游戏
 
-- **HTML5**：語義化標記
-- **CSS3**：現代樣式和動畫
-- **JavaScript ES6+**：模塊化代碼
-- **JSON**：結構化數據存儲
-- **Python**：輔助腳本（圖片生成、數據處理）
+### 运动游戏 (1个)
+- 体育类游戏
 
-## 📱 響應式設計
+## 🚀 技术特性
 
-- **桌面端**：1200px+ 寬屏優化
-- **平板端**：768px-1199px 適配
-- **手機端**：320px-767px 移動優化
-- **觸控友好**：大按鈕和手勢支持
+### 前端技术
+- **HTML5**：语义化标记
+- **CSS3**：现代样式和动画
+- **JavaScript ES6+**：模块化代码
+- **响应式设计**：移动优先设计理念
 
-## 🎯 遊戲特色
+### 功能特性
+- **幻灯片播放**：自动播放和手动控制
+- **游戏搜索**：实时搜索功能
+- **分类筛选**：按游戏类型筛选
+- **懒加载**：优化页面加载速度
 
-### 射擊遊戲類別
-1. **Bloxd io** - 多人射擊 io 遊戲
-2. **Masked Special Forces** - 第一人稱射擊
-3. **GTA Simulator** - GTA 風格模擬器
-4. **Fragen** - 射擊類問答遊戲
-5. **DTA 6** - DTA 系列第 6 代
-6. **Stickman GTA City** - 火柴人 GTA
-7. **FPS Simulator** - 第一人稱射擊模擬器
-8. **Crazy Strike Force** - 多人射擊
-9. **Shell Shockers.io** - 雞蛋殼射擊
-10. **Deadshot io** - 神槍手射擊
+## 🔧 本地开发
 
-## 🔧 本地開發
-
-### 啟動服務器
+### 启动服务器
 ```bash
 # Python 3
-python -m http.server 8000
+python3 -m http.server 8080
 
-# 或使用 Node.js
-npx http-server -p 8000
+# 访问网站
+# http://localhost:8080
 ```
 
-### 訪問網站
-打開瀏覽器訪問：`http://localhost:8000`
+### 项目脚本
+```bash
+# 运行GitHub连接脚本
+./connect_github.sh
 
-## 📊 SEO 監控
+# 运行自动化设置脚本
+python3 auto_github_setup.py
+```
 
-### Google Search Console
-- 提交 sitemap.xml
-- 監控搜索表現
-- 檢查結構化數據
+## 🌐 部署选项
 
-### 性能監控
-- Core Web Vitals
-- 頁面加載速度
-- 移動友好性
+### GitHub Pages
+- 仓库地址: https://github.com/suwenge-game/game2
+- 访问地址: https://suwenge-game.github.io/game2
 
-## 🔄 更新維護
+### 其他平台
+- **Netlify**: 连接GitHub仓库自动部署
+- **Vercel**: 连接GitHub仓库自动部署
+- **Firebase Hosting**: 使用Firebase CLI部署
 
-### 添加新遊戲
-1. 在 `data/games.json` 中添加遊戲數據
-2. 將縮略圖放入 `assets/images/` 目錄
-3. 更新 `sitemap.xml` 中的 URL
+## 📈 SEO优化
 
-### SEO 優化
-- 定期更新 sitemap.xml
-- 監控 Google Search Console
-- 優化 Core Web Vitals
+### 结构化数据
+- **JSON-LD格式**：网站和游戏集合的结构化标记
+- **Schema.org标准**：符合Google推荐的数据格式
 
-## 📄 許可證
+### 技术SEO
+- **XML Sitemap**：完整的网站地图
+- **Robots.txt**：搜索引擎爬虫指导
+- **Meta标签优化**：标题、描述、Open Graph等
+
+## 🔄 更新维护
+
+### 添加新游戏
+1. 在 `data/games.json` 中添加游戏数据
+2. 将缩略图放入 `assets/images/` 目录
+3. 更新 `sitemap.xml` 中的URL
+
+### 数据管理
+- 使用 `game-data-collection/` 中的脚本管理游戏数据
+- 定期更新缩略图和游戏信息
+- 监控游戏链接的有效性
+
+## 📄 许可证
 
 MIT License - 可自由使用和修改
 
-## 🤝 貢獻
+## 🤝 贡献
 
-歡迎提交 Issue 和 Pull Request 來改進項目！
+欢迎提交 Issue 和 Pull Request 来改进项目！
 
 ---
 
-**GameHub 遊戲站** - 讓遊戲更簡單，讓快樂更純粹！🎮
+**Game2 游戏网站** - 让游戏更简单，让快乐更纯粹！🎮

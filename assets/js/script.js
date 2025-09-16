@@ -1,65 +1,65 @@
-// 遊戲數據 - 將從 JSON 文件加載
+// Game data - will be loaded from JSON file
 let gamesData = [];
 
-// DOM 元素 - 將在 DOM 加載後初始化
+// DOM elements - will be initialized after DOM loads
 let hamburger, navMenu, navLinks, searchInput, searchBtn, gamesGrid, loadMoreBtn, categoryTags;
 let gameModal, modalGameTitle, gameFrame, closeModal, fullscreenBtn, refreshBtn;
 
-// 全局變量
+// Global variables
 let currentGames = gamesData;
 let displayedGames = 6;
 let currentFilter = 'all';
 
-// 英雄區塊幻燈片變量
+// Hero section slideshow variables
 let currentSlideIndex = 0;
 let slideInterval;
 
-// 異步加載遊戲數據
+// Asynchronously load game data
 async function loadGamesData() {
-    console.log('開始加載遊戲數據...');
+    console.log('Starting to load game data...');
     try {
         const response = await fetch('data/games.json?' + Date.now());
-        console.log('網絡請求響應狀態:', response.status);
+        console.log('Network request response status:', response.status);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
         gamesData = data;
-        console.log('遊戲數據加載成功:', gamesData.length, '個遊戲');
-        console.log('前5個遊戲:', gamesData.slice(0, 5).map(g => g.title));
+        console.log('Game data loaded successfully:', gamesData.length, 'games');
+        console.log('First 5 games:', gamesData.slice(0, 5).map(g => g.title));
         return data;
     } catch (error) {
-        console.error('加載遊戲數據時發生錯誤:', error);
-        // 如果加載失敗，使用備用數據
+        console.error('Error loading game data:', error);
+        // If loading fails, use fallback data
         gamesData = getFallbackGamesData();
-        console.log('使用備用數據:', gamesData.length, '個遊戲');
+        console.log('Using fallback data:', gamesData.length, 'games');
         return gamesData;
     }
 }
 
-// 備用遊戲數據（當 JSON 加載失敗時使用）
+// Fallback game data (used when JSON loading fails)
 function getFallbackGamesData() {
     return [
         {
             id: 1,
-            title: "太空冒險",
+            title: "Space Adventure",
             image_url: "https://via.placeholder.com/300x200/667eea/ffffff?text=Space+Adventure",
-            description: "在浩瀚的宇宙中展開史詩般的冒險旅程，探索未知星球，與外星生物戰鬥。",
-            category: "動作",
-            tags: ["科幻", "冒險", "單人"]
+            description: "Embark on an epic adventure journey in the vast universe, explore unknown planets, and battle alien creatures.",
+            category: "action",
+            tags: ["sci-fi", "adventure", "single-player"]
         },
         {
             id: 2,
-            title: "數獨大師",
+            title: "Sudoku Master",
             image_url: "https://via.placeholder.com/300x200/764ba2/ffffff?text=Sudoku+Master",
-            description: "挑戰經典數獨謎題，從簡單到困難，提升你的邏輯思維能力。",
-            category: "解謎",
-            tags: ["益智", "邏輯", "單人"]
+            description: "Challenge classic Sudoku puzzles, from easy to difficult, improve your logical thinking skills.",
+            category: "puzzle",
+            tags: ["puzzle", "logic", "single-player"]
         }
     ];
 }
 
-// 初始化 DOM 元素
+// Initialize DOM elements
 function initializeDOMElements() {
     hamburger = document.querySelector('.hamburger');
     navMenu = document.querySelector('.nav-menu');
@@ -70,7 +70,7 @@ function initializeDOMElements() {
     loadMoreBtn = document.querySelector('#loadMoreBtn');
     categoryTags = document.querySelectorAll('.category-tag');
     
-    // 模態框元素
+    // Modal elements
     gameModal = document.querySelector('#gameModal');
     modalGameTitle = document.querySelector('#modalGameTitle');
     gameFrame = document.querySelector('#gameFrame');

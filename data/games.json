@@ -6,12 +6,12 @@
     "game_category": "动作游戏",
     "id": 1,
     "title": "Geometry Arrow",
-    "description": "几何箭头游戏，控制箭头在几何世界中飞行",
-    "category": "動作遊戲",
+    "description": "Control arrows flying through geometric worlds in this action-packed game",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Geometry_Arrow.jpg"
   },
@@ -22,12 +22,12 @@
     "game_category": "动作游戏",
     "id": 2,
     "title": "Bloxd io",
-    "description": "方块io游戏，在方块世界中与其他玩家战斗",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Bloxd_io.jpg"
   },
@@ -38,12 +38,12 @@
     "game_category": "动作游戏",
     "id": 3,
     "title": "Masked Special Forces",
-    "description": "蒙面特种部队，第一人称射击游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Masked_Special_Forces.jpg"
   },
@@ -55,11 +55,11 @@
     "id": 4,
     "title": "GTA Simulator",
     "description": "GTA模拟器，体验犯罪世界的刺激生活",
-    "category": "動作遊戲",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/GTA_Simulator.jpg"
   },
@@ -70,12 +70,12 @@
     "game_category": "动作游戏",
     "id": 5,
     "title": "Fragen",
-    "description": "射击类问答游戏，通过射击来回答问题",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Fragen.webp"
   },
@@ -86,12 +86,12 @@
     "game_category": "动作游戏",
     "id": 6,
     "title": "Five Nights At Freddys",
-    "description": "玩具熊的五夜后宫，恐怖生存游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Five_Nights_At_Freddys.jpg"
   },
@@ -103,11 +103,11 @@
     "id": 7,
     "title": "Extreme Run 3D",
     "description": "极限跑酷3D，在3D世界中奔跑和跳跃",
-    "category": "動作遊戲",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Extreme_Run_3D.jpg"
   },
@@ -119,11 +119,11 @@
     "id": 8,
     "title": "Aventador Vice Crime City",
     "description": "兰博基尼罪恶城市，驾驶超跑在犯罪城市中行动",
-    "category": "動作遊戲",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Aventador_Vice_Crime_City.webp"
   },
@@ -134,12 +134,12 @@
     "game_category": "动作游戏",
     "id": 9,
     "title": "Granny",
-    "description": "奶奶，恐怖逃脱游戏，避开奶奶的追捕",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Granny.jpg"
   },
@@ -151,11 +151,11 @@
     "id": 10,
     "title": "DTA 6",
     "description": "DTA系列第6代，体验激烈的战斗",
-    "category": "動作遊戲",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/DTA_6.jpg"
   },
@@ -166,12 +166,12 @@
     "game_category": "动作游戏",
     "id": 11,
     "title": "Stick Fighter 3D",
-    "description": "火柴人战士3D，3D格斗游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Stick_Fighter_3D.jpg"
   },
@@ -183,11 +183,11 @@
     "id": 12,
     "title": "Stickman Parkour",
     "description": "火柴人跑酷，在跑酷中展现技巧",
-    "category": "動作遊戲",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Stickman_Parkour.jpg"
   },
@@ -199,11 +199,11 @@
     "id": 13,
     "title": "Stickman GTA City",
     "description": "火柴人GTA城市，在像素城市中进行射击战斗",
-    "category": "動作遊戲",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Stickman_GTA_City.jpg"
   },
@@ -214,12 +214,12 @@
     "game_category": "动作游戏",
     "id": 14,
     "title": "Red Light Green Light",
-    "description": "红灯绿灯，鱿鱼游戏经典关卡",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Red_Light_Green_Light.jpg"
   },
@@ -230,12 +230,12 @@
     "game_category": "动作游戏",
     "id": 15,
     "title": "Get On Top",
-    "description": "爬到顶部，物理格斗游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Get_On_Top.jpg"
   },
@@ -246,12 +246,12 @@
     "game_category": "动作游戏",
     "id": 16,
     "title": "FPS Simulator",
-    "description": "第一人称射击模拟器，体验真实的射击感觉",
-    "category": "動作遊戲",
+    "description": "First-person shooting simulator with realistic shooting mechanics",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/FPS_Simulator.jpg"
   },
@@ -263,11 +263,11 @@
     "id": 17,
     "title": "City Police Cars",
     "description": "城市警车，驾驶警车维护治安",
-    "category": "動作遊戲",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/City_Police_Cars.webp"
   },
@@ -278,12 +278,12 @@
     "game_category": "动作游戏",
     "id": 18,
     "title": "Crazy Strike Force",
-    "description": "疯狂打击力量，多人第一人称射击游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Crazy_Strike_Force.jpg"
   },
@@ -294,12 +294,12 @@
     "game_category": "动作游戏",
     "id": 19,
     "title": "Shell Shockers.io",
-    "description": "鸡蛋壳射击io游戏，控制鸡蛋进行射击战斗",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Shell_Shockers.io.jpg"
   },
@@ -310,12 +310,12 @@
     "game_category": "动作游戏",
     "id": 20,
     "title": "Granny 2",
-    "description": "奶奶2，续作恐怖逃脱游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Granny_2.jpg"
   },
@@ -326,12 +326,12 @@
     "game_category": "动作游戏",
     "id": 21,
     "title": "Deadshot io",
-    "description": "神枪手io游戏，精准射击击败对手",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Deadshot_io.jpg"
   },
@@ -342,12 +342,12 @@
     "game_category": "动作游戏",
     "id": 22,
     "title": "Mob City",
-    "description": "黑帮城市游戏，在犯罪都市中进行射击战斗",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Mob_City.jpg"
   },
@@ -358,12 +358,12 @@
     "game_category": "动作游戏",
     "id": 23,
     "title": "Crazy Shooters",
-    "description": "疯狂射击手，快节奏的射击游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Crazy_Shooters.jpg"
   },
@@ -374,12 +374,12 @@
     "game_category": "动作游戏",
     "id": 24,
     "title": "CS Online",
-    "description": "反恐精英在线版，经典FPS射击游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/CS_Online.jpg"
   },
@@ -390,12 +390,12 @@
     "game_category": "动作游戏",
     "id": 25,
     "title": "Snow Rider 3D",
-    "description": "雪地骑手3D，在雪地中骑行的3D游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Snow_Rider_3D.jpg"
   },
@@ -406,12 +406,12 @@
     "game_category": "动作游戏",
     "id": 26,
     "title": "Only Up Obby",
-    "description": "只能向上障碍赛，向上攀爬的障碍游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Only_Up_Obby.jpg"
   },
@@ -422,12 +422,12 @@
     "game_category": "动作游戏",
     "id": 27,
     "title": "Drunken Duel",
-    "description": "醉酒决斗，醉酒状态下的格斗游戏",
-    "category": "動作遊戲",
+    "description": "Exciting action games with engaging gameplay and challenges",
+    "category": "Action Games",
     "tags": [
-      "動作遊戲",
-      "免費",
-      "線上遊戲"
+      "Action",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Drunken_Duel.jpg"
   },
@@ -438,12 +438,12 @@
     "game_category": "益智游戏",
     "id": 28,
     "title": "Mahjong",
-    "description": "麻将，中国传统益智游戏",
-    "category": "解謎遊戲",
+    "description": "Exciting puzzle games with engaging gameplay and challenges",
+    "category": "Puzzle Games",
     "tags": [
-      "解謎遊戲",
-      "免費",
-      "線上遊戲"
+      "Puzzle",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Mahjong.jpg"
   },
@@ -454,12 +454,12 @@
     "game_category": "益智游戏",
     "id": 29,
     "title": "Chess",
-    "description": "国际象棋，策略性棋类游戏",
-    "category": "解謎遊戲",
+    "description": "Exciting puzzle games with engaging gameplay and challenges",
+    "category": "Puzzle Games",
     "tags": [
-      "解謎遊戲",
-      "免費",
-      "線上遊戲"
+      "Puzzle",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Chess.jpg"
   },
@@ -470,12 +470,12 @@
     "game_category": "益智游戏",
     "id": 30,
     "title": "Solitaire",
-    "description": "纸牌接龙，单人纸牌游戏",
-    "category": "解謎遊戲",
+    "description": "Exciting puzzle games with engaging gameplay and challenges",
+    "category": "Puzzle Games",
     "tags": [
-      "解謎遊戲",
-      "免費",
-      "線上遊戲"
+      "Puzzle",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Solitaire.jpg"
   },
@@ -486,12 +486,12 @@
     "game_category": "益智游戏",
     "id": 31,
     "title": "Tic Tac Toe",
-    "description": "井字棋，经典的两人对战游戏",
-    "category": "解謎遊戲",
+    "description": "Exciting puzzle games with engaging gameplay and challenges",
+    "category": "Puzzle Games",
     "tags": [
-      "解謎遊戲",
-      "免費",
-      "線上遊戲"
+      "Puzzle",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Tic_Tac_Toe.jpg"
   },
@@ -502,12 +502,12 @@
     "game_category": "益智游戏",
     "id": 32,
     "title": "Snake",
-    "description": "贪吃蛇，控制蛇吃食物的经典游戏",
-    "category": "解謎遊戲",
+    "description": "Exciting puzzle games with engaging gameplay and challenges",
+    "category": "Puzzle Games",
     "tags": [
-      "解謎遊戲",
-      "免費",
-      "線上遊戲"
+      "Puzzle",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Snake.jpg"
   },
@@ -518,12 +518,12 @@
     "game_category": "益智游戏",
     "id": 33,
     "title": "2048",
-    "description": "2048数字拼图游戏，合并相同数字达到2048",
-    "category": "解謎遊戲",
+    "description": "Exciting puzzle games with engaging gameplay and challenges",
+    "category": "Puzzle Games",
     "tags": [
-      "解謎遊戲",
-      "免費",
-      "線上遊戲"
+      "Puzzle",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/2048.jpg"
   },
@@ -534,12 +534,12 @@
     "game_category": "益智游戏",
     "id": 34,
     "title": "Tetris",
-    "description": "俄罗斯方块，经典的方块消除游戏",
-    "category": "解謎遊戲",
+    "description": "Exciting puzzle games with engaging gameplay and challenges",
+    "category": "Puzzle Games",
     "tags": [
-      "解謎遊戲",
-      "免費",
-      "線上遊戲"
+      "Puzzle",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Tetris.jpg"
   },
@@ -550,12 +550,12 @@
     "game_category": "益智游戏",
     "id": 35,
     "title": "Sudoku",
-    "description": "数独，数字逻辑推理游戏",
-    "category": "解謎遊戲",
+    "description": "Exciting puzzle games with engaging gameplay and challenges",
+    "category": "Puzzle Games",
     "tags": [
-      "解謎遊戲",
-      "免費",
-      "線上遊戲"
+      "Puzzle",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Sudoku.jpg"
   },
@@ -567,11 +567,11 @@
     "id": 36,
     "title": "Car Parking City Duel",
     "description": "城市停车决斗，在城市中进行停车挑战",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Car_Parking_City_Duel.jpg"
   },
@@ -582,12 +582,12 @@
     "game_category": "赛车游戏",
     "id": 37,
     "title": "Highway Racer Pro",
-    "description": "高速公路赛车手专业版，专业高速赛车游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Highway_Racer_Pro.jpg"
   },
@@ -599,11 +599,11 @@
     "id": 38,
     "title": "Burnout City",
     "description": "燃烧城市，在城市中进行激烈赛车",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Burnout_City.jpg"
   },
@@ -615,11 +615,11 @@
     "id": 39,
     "title": "Edys Car Simulator",
     "description": "Edys汽车模拟器，真实汽车驾驶模拟",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Edys_Car_Simulator.jpg"
   },
@@ -631,11 +631,11 @@
     "id": 40,
     "title": "Jeep Driver",
     "description": "吉普车司机，驾驶吉普车进行越野",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Jeep_Driver.webp"
   },
@@ -647,11 +647,11 @@
     "id": 41,
     "title": "Super Car Driving",
     "description": "超级汽车驾驶，驾驶超级跑车",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Super_Car_Driving.jpg"
   },
@@ -663,11 +663,11 @@
     "id": 42,
     "title": "Drift City",
     "description": "漂移城市，在城市中进行漂移比赛",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Drift_City.jpg"
   },
@@ -678,12 +678,12 @@
     "game_category": "赛车游戏",
     "id": 43,
     "title": "Only Up Obby",
-    "description": "只能向上障碍赛，向上攀爬的障碍游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Only_Up_Obby.jpg"
   },
@@ -695,11 +695,11 @@
     "id": 44,
     "title": "Crazy Motorcycle",
     "description": "疯狂摩托车，驾驶摩托车进行特技表演",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Crazy_Motorcycle.jpg"
   },
@@ -710,12 +710,12 @@
     "game_category": "赛车游戏",
     "id": 45,
     "title": "Mini Cars Racing",
-    "description": "迷你汽车赛车，小型汽车竞速游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Mini_Cars_Racing.jpg"
   },
@@ -727,11 +727,11 @@
     "id": 46,
     "title": "Ultimate Flying Car",
     "description": "终极飞行汽车，驾驶会飞的汽车",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Ultimate_Flying_Car.jpg"
   },
@@ -743,11 +743,11 @@
     "id": 47,
     "title": "Highway Road Racing",
     "description": "高速公路竞速，在高速公路上进行赛车",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Highway_Road_Racing.jpg"
   },
@@ -759,11 +759,11 @@
     "id": 48,
     "title": "Motor Tour",
     "description": "摩托车之旅，驾驶摩托车进行旅行",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Motor_Tour.jpg"
   },
@@ -774,12 +774,12 @@
     "game_category": "赛车游戏",
     "id": 49,
     "title": "Ultimate Flying Car 2",
-    "description": "终极飞行汽车2，续作飞行汽车游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Ultimate_Flying_Car_2.jpg"
   },
@@ -791,11 +791,11 @@
     "id": 50,
     "title": "Crazy Drifter",
     "description": "疯狂漂移者，进行疯狂的漂移表演",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Crazy_Drifter.jpg"
   },
@@ -807,11 +807,11 @@
     "id": 51,
     "title": "Police Real Chase Car Simulator",
     "description": "警察真实追车模拟器，体验警察追车",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Police_Real_Chase_Car_Simulator.jpg"
   },
@@ -822,12 +822,12 @@
     "game_category": "赛车游戏",
     "id": 52,
     "title": "Racing Horizon",
-    "description": "赛车地平线，地平线主题赛车游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Racing_Horizon.jpg"
   },
@@ -839,11 +839,11 @@
     "id": 53,
     "title": "Drift Fury",
     "description": "漂移狂怒，激烈的漂移比赛",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Drift_Fury.jpg"
   },
@@ -855,11 +855,11 @@
     "id": 54,
     "title": "Car Stunt King",
     "description": "汽车特技之王，进行各种汽车特技",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Car_Stunt_King.jpg"
   },
@@ -871,11 +871,11 @@
     "id": 55,
     "title": "F1 Drift Racer",
     "description": "F1漂移赛车手，F1赛车的漂移版本",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/F1_Drift_Racer.jpg"
   },
@@ -886,12 +886,12 @@
     "game_category": "赛车游戏",
     "id": 56,
     "title": "Hurakan City Driver HD",
-    "description": "Hurakan城市司机HD，高清城市驾驶游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Hurakan_City_Driver_HD.jpg"
   },
@@ -903,11 +903,11 @@
     "id": 57,
     "title": "Obby: Draw and Jump",
     "description": "障碍赛：绘制和跳跃，绘制路径进行跳跃",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Obby_Draw_and_Jump.jpg"
   },
@@ -918,12 +918,12 @@
     "game_category": "赛车游戏",
     "id": 58,
     "title": "Police Traffic",
-    "description": "警察交通，管理交通的警察游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Police_Traffic.jpg"
   },
@@ -935,11 +935,11 @@
     "id": 59,
     "title": "Highway Cars",
     "description": "高速公路汽车，在高速公路上驾驶汽车",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Highway_Cars.jpg"
   },
@@ -950,12 +950,12 @@
     "game_category": "赛车游戏",
     "id": 60,
     "title": "Jul Moto Racing",
-    "description": "Jul摩托车赛车，摩托车竞速游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Jul_Moto_Racing.webp"
   },
@@ -967,11 +967,11 @@
     "id": 61,
     "title": "Truck Driver: Snowy Roads",
     "description": "卡车司机：雪路，在雪路上驾驶卡车",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Truck_Driver_Snowy_Roads.jpg"
   },
@@ -982,12 +982,12 @@
     "game_category": "赛车游戏",
     "id": 62,
     "title": "Mr Racer",
-    "description": "赛车先生，专业赛车手游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Mr_Racer.jpg"
   },
@@ -998,12 +998,12 @@
     "game_category": "赛车游戏",
     "id": 63,
     "title": "Moto X3M Pool Party",
-    "description": "Moto X3M泳池派对，摩托车特技游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Moto_X3M_Pool_Party.jpg"
   },
@@ -1015,11 +1015,11 @@
     "id": 64,
     "title": "Police Stunt Cars",
     "description": "警察特技汽车，警察汽车特技表演",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Police_Stunt_Cars.jpg"
   },
@@ -1031,11 +1031,11 @@
     "id": 65,
     "title": "Obby: Parkour Lava",
     "description": "障碍赛：跑酷熔岩，在熔岩中进行跑酷",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Obby_Parkour_Lava.jpg"
   },
@@ -1046,12 +1046,12 @@
     "game_category": "赛车游戏",
     "id": 66,
     "title": "Drift Hunters 2",
-    "description": "漂移猎人2，专业漂移赛车游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Drift_Hunters_2.jpg"
   },
@@ -1063,11 +1063,11 @@
     "id": 67,
     "title": "Highway Traffic",
     "description": "高速公路交通，在高速公路上驾驶赛车",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Highway_Traffic.jpg"
   },
@@ -1078,12 +1078,12 @@
     "game_category": "赛车游戏",
     "id": 68,
     "title": "Traffic Jam 3D",
-    "description": "交通堵塞3D，3D交通驾驶游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Traffic_Jam_3D.jpg"
   },
@@ -1094,12 +1094,12 @@
     "game_category": "赛车游戏",
     "id": 69,
     "title": "Drift Hunters Pro",
-    "description": "漂移猎人专业版，专业漂移赛车游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Drift_Hunters_Pro.jpg"
   },
@@ -1111,11 +1111,11 @@
     "id": 70,
     "title": "Mega Lamba Ramp",
     "description": "超级兰博基尼坡道，驾驶兰博基尼飞跃坡道",
-    "category": "競速遊戲",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Mega_Lamba_Ramp.webp"
   },
@@ -1126,12 +1126,12 @@
     "game_category": "赛车游戏",
     "id": 71,
     "title": "Motorbike Stunt Simulator",
-    "description": "摩托车特技模拟器，摩托车特技驾驶游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Motorbike_Stunt_Simulator.webp"
   },
@@ -1142,12 +1142,12 @@
     "game_category": "赛车游戏",
     "id": 72,
     "title": "Survival Race",
-    "description": "生存竞速，生存主题赛车游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Survival_Race.jpg"
   },
@@ -1158,12 +1158,12 @@
     "game_category": "赛车游戏",
     "id": 73,
     "title": "Futuristic Racer",
-    "description": "未来赛车手，未来科技赛车游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Futuristic_Racer.webp"
   },
@@ -1174,12 +1174,12 @@
     "game_category": "赛车游戏",
     "id": 74,
     "title": "LOLbeans io",
-    "description": "LOLbeans.io，多人竞速io游戏",
-    "category": "競速遊戲",
+    "description": "Exciting racing games with engaging gameplay and challenges",
+    "category": "Racing Games",
     "tags": [
-      "競速遊戲",
-      "免費",
-      "線上遊戲"
+      "Racing",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/LOLbeans_io.jpg"
   },
@@ -1190,12 +1190,12 @@
     "game_category": "模拟器游戏",
     "id": 75,
     "title": "Train Simulator",
-    "description": "火车模拟器，驾驶火车的模拟游戏",
-    "category": "模擬遊戲",
+    "description": "Exciting simulation games with engaging gameplay and challenges",
+    "category": "Simulation Games",
     "tags": [
-      "模擬遊戲",
-      "免費",
-      "線上遊戲"
+      "Simulation",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Train_Simulator.jpg"
   },
@@ -1206,12 +1206,12 @@
     "game_category": "体育游戏",
     "id": 76,
     "title": "Basketball Stars",
-    "description": "篮球明星，篮球比赛游戏",
-    "category": "運動遊戲",
+    "description": "Exciting sports games with engaging gameplay and challenges",
+    "category": "Sports Games",
     "tags": [
-      "運動遊戲",
-      "免費",
-      "線上遊戲"
+      "Sports",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Basketball_Stars.jpg"
   },
@@ -1222,12 +1222,12 @@
     "game_category": "射击游戏",
     "id": 77,
     "title": "Bloxd io",
-    "description": "多人射击io游戏，在方块世界中与其他玩家战斗",
-    "category": "射擊遊戲",
+    "description": "Multiplayer shooting io game, battle with other players in a block world",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Bloxd_io.jpg"
   },
@@ -1238,12 +1238,12 @@
     "game_category": "射击游戏",
     "id": 78,
     "title": "Masked Special Forces",
-    "description": "第一人称射击游戏，扮演蒙面特种部队进行战斗",
-    "category": "射擊遊戲",
+    "description": "First-person shooter game, play as masked special forces in combat",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Masked_Special_Forces.jpg"
   },
@@ -1254,12 +1254,12 @@
     "game_category": "射击游戏",
     "id": 79,
     "title": "GTA Simulator",
-    "description": "GTA风格模拟器游戏，体验犯罪世界的刺激生活",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/GTA_Simulator.jpg"
   },
@@ -1270,12 +1270,12 @@
     "game_category": "射击游戏",
     "id": 80,
     "title": "Fragen",
-    "description": "射击类问答游戏，通过射击来回答问题",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Fragen.webp"
   },
@@ -1286,12 +1286,12 @@
     "game_category": "射击游戏",
     "id": 81,
     "title": "DTA 6",
-    "description": "DTA系列第6代射击游戏，体验激烈的战斗",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/DTA_6.jpg"
   },
@@ -1302,12 +1302,12 @@
     "game_category": "射击游戏",
     "id": 82,
     "title": "Stickman GTA City",
-    "description": "火柴人GTA城市游戏，在像素城市中进行射击战斗",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Stickman_GTA_City.jpg"
   },
@@ -1318,12 +1318,12 @@
     "game_category": "射击游戏",
     "id": 83,
     "title": "FPS Simulator",
-    "description": "第一人称射击模拟器，体验真实的射击感觉",
-    "category": "射擊遊戲",
+    "description": "First-person shooting simulator with realistic shooting mechanics",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/FPS_Simulator.jpg"
   },
@@ -1334,12 +1334,12 @@
     "game_category": "射击游戏",
     "id": 84,
     "title": "Crazy Strike Force",
-    "description": "疯狂打击力量，多人第一人称射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Crazy_Strike_Force.jpg"
   },
@@ -1350,12 +1350,12 @@
     "game_category": "射击游戏",
     "id": 85,
     "title": "Shell Shockers.io",
-    "description": "鸡蛋壳射击io游戏，控制鸡蛋进行射击战斗",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Shell_Shockers.io.jpg"
   },
@@ -1366,12 +1366,12 @@
     "game_category": "射击游戏",
     "id": 86,
     "title": "Deadshot io",
-    "description": "神枪手io游戏，精准射击击败对手",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Deadshot_io.jpg"
   },
@@ -1382,12 +1382,12 @@
     "game_category": "射击游戏",
     "id": 87,
     "title": "Mob City",
-    "description": "黑帮城市游戏，在犯罪都市中进行射击战斗",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Mob_City.jpg"
   },
@@ -1398,12 +1398,12 @@
     "game_category": "射击游戏",
     "id": 88,
     "title": "Crazy Shooters",
-    "description": "疯狂射击手，快节奏的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Crazy_Shooters.jpg"
   },
@@ -1414,12 +1414,12 @@
     "game_category": "射击游戏",
     "id": 89,
     "title": "CS Online",
-    "description": "反恐精英在线版，经典FPS射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/CS_Online.jpg"
   },
@@ -1430,12 +1430,12 @@
     "game_category": "射击游戏",
     "id": 90,
     "title": "Guerrillas io",
-    "description": "游击队io游戏，多人战术射击对战",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Guerrillas_io.jpg"
   },
@@ -1446,12 +1446,12 @@
     "game_category": "射击游戏",
     "id": 91,
     "title": "Gangsters",
-    "description": "黑帮游戏，体验黑帮世界的射击战斗",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Gangsters.webp"
   },
@@ -1462,12 +1462,12 @@
     "game_category": "射击游戏",
     "id": 92,
     "title": "Voxiom",
-    "description": "体素射击游戏，建造和射击的完美结合",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Voxiom.jpg"
   },
@@ -1479,11 +1479,11 @@
     "id": 93,
     "title": "Crazy Shooters 2",
     "description": "疯狂射击手2，续作带来更多射击乐趣",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Crazy_Shooters_2.jpg"
   },
@@ -1494,12 +1494,12 @@
     "game_category": "射击游戏",
     "id": 94,
     "title": "Suroi",
-    "description": "苏洛伊射击游戏，战术射击对战",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Suroi.jpg"
   },
@@ -1510,12 +1510,12 @@
     "game_category": "射击游戏",
     "id": 95,
     "title": "Time Shooter 2",
-    "description": "时间射击手2，时间控制的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Time_Shooter_2.jpg"
   },
@@ -1526,12 +1526,12 @@
     "game_category": "射击游戏",
     "id": 96,
     "title": "ShooterZ.io",
-    "description": "射击者io游戏，多人射击大逃杀",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/ShooterZ.io.jpg"
   },
@@ -1542,12 +1542,12 @@
     "game_category": "射击游戏",
     "id": 97,
     "title": "Funny Shooter 2",
-    "description": "搞笑射击手2，幽默风格的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Funny_Shooter_2.jpg"
   },
@@ -1558,12 +1558,12 @@
     "game_category": "射击游戏",
     "id": 98,
     "title": "1v1.LOL",
-    "description": "1对1射击游戏，与朋友进行单挑对战",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/1v1.LOL.jpg"
   },
@@ -1574,12 +1574,12 @@
     "game_category": "射击游戏",
     "id": 99,
     "title": "Legendary Sniper",
-    "description": "传奇狙击手，精准狙击射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Legendary_Sniper.jpg"
   },
@@ -1590,12 +1590,12 @@
     "game_category": "射击游戏",
     "id": 100,
     "title": "Craftnite",
-    "description": "工艺之夜，建造和射击的沙盒游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Craftnite.jpg"
   },
@@ -1606,12 +1606,12 @@
     "game_category": "射击游戏",
     "id": 101,
     "title": "Time Shooter 3: SWAT",
-    "description": "时间射击手3：特警，特警主题的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Time_Shooter_3_SWAT.jpg"
   },
@@ -1622,12 +1622,12 @@
     "game_category": "射击游戏",
     "id": 102,
     "title": "WarStrike",
-    "description": "战争打击，现代战争射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/WarStrike.jpg"
   },
@@ -1638,12 +1638,12 @@
     "game_category": "射击游戏",
     "id": 103,
     "title": "ArmedForces.io",
-    "description": "武装部队io，军事主题射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/ArmedForces.io.jpg"
   },
@@ -1654,12 +1654,12 @@
     "game_category": "射击游戏",
     "id": 104,
     "title": "Kirka io",
-    "description": "基尔卡io，多人射击对战游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Kirka_io.jpg"
   },
@@ -1671,11 +1671,11 @@
     "id": 105,
     "title": "Masked Forces Crazy Mode",
     "description": "蒙面部队疯狂模式，疯狂射击模式",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Masked_Forces_Crazy_Mode.jpg"
   },
@@ -1686,12 +1686,12 @@
     "game_category": "射击游戏",
     "id": 106,
     "title": "FPS Strike",
-    "description": "FPS打击，第一人称射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/FPS_Strike.jpg"
   },
@@ -1702,12 +1702,12 @@
     "game_category": "射击游戏",
     "id": 107,
     "title": "Zombie Apocalypse Shooter",
-    "description": "僵尸末日射击游戏，在僵尸世界中生存和战斗",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Zombie_Apocalypse_Shooter.jpg"
   },
@@ -1718,12 +1718,12 @@
     "game_category": "射击游戏",
     "id": 108,
     "title": "GunSpin",
-    "description": "枪械旋转游戏，旋转枪械进行射击",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/GunSpin.jpg"
   },
@@ -1735,11 +1735,11 @@
     "id": 109,
     "title": "Rooftop Snipers",
     "description": "屋顶狙击手，在屋顶上进行狙击对战",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Rooftop_Snipers.jpg"
   },
@@ -1750,12 +1750,12 @@
     "game_category": "射击游戏",
     "id": 110,
     "title": "The Last io",
-    "description": "最后的io游戏，末日生存射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/The_Last_io.jpg"
   },
@@ -1766,12 +1766,12 @@
     "game_category": "射击游戏",
     "id": 111,
     "title": "FNaF Shooter",
-    "description": "玩具熊的五夜后宫射击版，恐怖射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/FNaF_Shooter.jpg"
   },
@@ -1782,12 +1782,12 @@
     "game_category": "射击游戏",
     "id": 112,
     "title": "Squid Shooter",
-    "description": "鱿鱼射击游戏，控制鱿鱼进行射击战斗",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Squid_Shooter.jpg"
   },
@@ -1798,12 +1798,12 @@
     "game_category": "射击游戏",
     "id": 113,
     "title": "Pixel Survival",
-    "description": "像素生存游戏，像素风格的生存射击",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Pixel_Survival.jpg"
   },
@@ -1814,12 +1814,12 @@
     "game_category": "射击游戏",
     "id": 114,
     "title": "Fortnite Z",
-    "description": "堡垒之夜Z，大逃杀射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Fortnite_Z.jpg"
   },
@@ -1831,11 +1831,11 @@
     "id": 115,
     "title": "Rooftop Duel",
     "description": "屋顶决斗，在屋顶上进行射击决斗",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Rooftop_Duel.jpg"
   },
@@ -1846,12 +1846,12 @@
     "game_category": "射击游戏",
     "id": 116,
     "title": "Wasteland Shooters",
-    "description": "废土射击手，后末日世界射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Wasteland_Shooters.jpg"
   },
@@ -1863,11 +1863,11 @@
     "id": 117,
     "title": "Rebel Forces",
     "description": "反叛军，扮演反叛军进行射击战斗",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Rebel_Forces.jpg"
   },
@@ -1878,12 +1878,12 @@
     "game_category": "射击游戏",
     "id": 118,
     "title": "Rome Simulator",
-    "description": "罗马模拟器，古罗马时代的射击模拟游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Rome_Simulator.jpg"
   },
@@ -1894,12 +1894,12 @@
     "game_category": "射击游戏",
     "id": 119,
     "title": "Awesome Pirates",
-    "description": "超棒海盗，海盗主题的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Awesome_Pirates.jpg"
   },
@@ -1910,12 +1910,12 @@
     "game_category": "射击游戏",
     "id": 120,
     "title": "Skibidi Toilet Shooting",
-    "description": "Skibidi马桶射击，马桶主题射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Skibidi_Toilet_Shooting.jpg"
   },
@@ -1927,11 +1927,11 @@
     "id": 121,
     "title": "Mech Shooter",
     "description": "机甲射击手，控制机甲进行射击战斗",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Mech_Shooter.jpg"
   },
@@ -1942,12 +1942,12 @@
     "game_category": "射击游戏",
     "id": 122,
     "title": "Deer Hunter",
-    "description": "鹿猎人，狩猎射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Deer_Hunter.jpg"
   },
@@ -1959,11 +1959,11 @@
     "id": 123,
     "title": "Tank War Simulator",
     "description": "坦克战争模拟器，驾驶坦克进行战斗",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Tank_War_Simulator.jpg"
   },
@@ -1974,12 +1974,12 @@
     "game_category": "射击游戏",
     "id": 124,
     "title": "Blocky Combat Swat",
-    "description": "方块战斗特警，方块风格的特警射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Blocky_Combat_Swat.jpg"
   },
@@ -1990,12 +1990,12 @@
     "game_category": "射击游戏",
     "id": 125,
     "title": "Time Shooter",
-    "description": "时间射击手，时间控制的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Time_Shooter.jpg"
   },
@@ -2006,12 +2006,12 @@
     "game_category": "射击游戏",
     "id": 126,
     "title": "Army Combat",
-    "description": "军队战斗，军事主题射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Army_Combat.jpg"
   },
@@ -2023,11 +2023,11 @@
     "id": 127,
     "title": "Secret Sniper Agent",
     "description": "秘密狙击特工，扮演秘密特工进行狙击任务",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Secret_Sniper_Agent.jpg"
   },
@@ -2039,11 +2039,11 @@
     "id": 128,
     "title": "Subway Clash 2",
     "description": "地铁冲突2，在地铁中进行射击战斗",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Subway_Clash_2.jpg"
   },
@@ -2054,12 +2054,12 @@
     "game_category": "射击游戏",
     "id": 129,
     "title": "Agent Walker vs Skibidi Toilets",
-    "description": "特工沃克对战Skibidi马桶，特工对战马桶射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Agent_Walker_vs_Skibidi_Toilets.jpg"
   },
@@ -2071,11 +2071,11 @@
     "id": 130,
     "title": "Urban Sniper",
     "description": "城市狙击手，在城市中进行狙击任务",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Urban_Sniper.jpg"
   },
@@ -2086,12 +2086,12 @@
     "game_category": "射击游戏",
     "id": 131,
     "title": "Su Battle Royale",
-    "description": "Su大逃杀，大逃杀射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Su_Battle_Royale.jpg"
   },
@@ -2102,12 +2102,12 @@
     "game_category": "射击游戏",
     "id": 132,
     "title": "Halloween Survival",
-    "description": "万圣节生存，万圣节主题生存射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Halloween_Survival.jpg"
   },
@@ -2118,12 +2118,12 @@
     "game_category": "射击游戏",
     "id": 133,
     "title": "ForceZ.io",
-    "description": "ForceZ.io，多人射击io游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/ForceZ.io.jpg"
   },
@@ -2135,11 +2135,11 @@
     "id": 134,
     "title": "Masked Shooters Assault",
     "description": "蒙面射击手突击，蒙面射击手突击模式",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Masked_Shooters_Assault.jpg"
   },
@@ -2151,11 +2151,11 @@
     "id": 135,
     "title": "Realistic Zombie Survival Warfare",
     "description": "真实僵尸生存战争，真实风格的僵尸生存射击",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Realistic_Zombie_Survival_Warfare.jpg"
   },
@@ -2166,12 +2166,12 @@
     "game_category": "射击游戏",
     "id": 136,
     "title": "Battle Royale Simulator",
-    "description": "大逃杀模拟器，大逃杀射击模拟游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Battle_Royale_Simulator.jpg"
   },
@@ -2183,11 +2183,11 @@
     "id": 137,
     "title": "Vegas Crime City",
     "description": "拉斯维加斯犯罪城市，在罪恶之都进行射击战斗",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Vegas_Crime_City.jpg"
   },
@@ -2198,12 +2198,12 @@
     "game_category": "射击游戏",
     "id": 138,
     "title": "Alien Sky Invasion",
-    "description": "外星天空入侵，对抗外星人入侵的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Alien_Sky_Invasion.jpg"
   },
@@ -2214,12 +2214,12 @@
     "game_category": "射击游戏",
     "id": 139,
     "title": "Horse Riding Simulator",
-    "description": "骑马模拟器，骑马射击模拟游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Horse_Riding_Simulator.jpg"
   },
@@ -2230,12 +2230,12 @@
     "game_category": "射击游戏",
     "id": 140,
     "title": "Rainbow Survival",
-    "description": "彩虹生存，彩虹主题生存射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Rainbow_Survival.jpg"
   },
@@ -2247,11 +2247,11 @@
     "id": 141,
     "title": "Masked Forces Zombie Survival",
     "description": "蒙面部队僵尸生存，蒙面部队僵尸生存模式",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Masked_Forces_Zombie_Survival.jpg"
   },
@@ -2263,11 +2263,11 @@
     "id": 142,
     "title": "Backrooms Shooter",
     "description": "后室射击手，在后室中进行射击战斗",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Backrooms_Shooter.jpg"
   },
@@ -2278,12 +2278,12 @@
     "game_category": "射击游戏",
     "id": 143,
     "title": "Pixel Battle Royale",
-    "description": "像素大逃杀，像素风格大逃杀射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Pixel_Battle_Royale.jpg"
   },
@@ -2294,12 +2294,12 @@
     "game_category": "射击游戏",
     "id": 144,
     "title": "Masked io",
-    "description": "蒙面io，蒙面主题io射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Masked_io.jpg"
   },
@@ -2310,12 +2310,12 @@
     "game_category": "射击游戏",
     "id": 145,
     "title": "Zombie Sniper",
-    "description": "僵尸狙击手，狙击僵尸的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Zombie_Sniper.jpg"
   },
@@ -2326,12 +2326,12 @@
     "game_category": "射击游戏",
     "id": 146,
     "title": "Skibidi Strike",
-    "description": "Skibidi打击，Skibidi主题射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Skibidi_Strike.jpg"
   },
@@ -2343,11 +2343,11 @@
     "id": 147,
     "title": "Galactic Sniper",
     "description": "银河狙击手，在银河系中进行狙击任务",
-    "category": "射擊遊戲",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Galactic_Sniper.jpg"
   },
@@ -2358,12 +2358,12 @@
     "game_category": "射击游戏",
     "id": 148,
     "title": "WarBrokers.io",
-    "description": "战争经纪人io，战争主题io射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/WarBrokers.io.jpg"
   },
@@ -2374,12 +2374,12 @@
     "game_category": "射击游戏",
     "id": 149,
     "title": "Funny Shooter",
-    "description": "搞笑射击手，幽默风格的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Funny_Shooter.jpg"
   },
@@ -2390,12 +2390,12 @@
     "game_category": "射击游戏",
     "id": 150,
     "title": "Stickman War",
-    "description": "火柴人战争，火柴人主题射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Stickman_War.jpg"
   },
@@ -2406,12 +2406,12 @@
     "game_category": "射击游戏",
     "id": 151,
     "title": "Squad Shooter",
-    "description": "小队射击手，小队作战射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Squad_Shooter.jpg"
   },
@@ -2422,12 +2422,12 @@
     "game_category": "射击游戏",
     "id": 152,
     "title": "Mini Shooters",
-    "description": "迷你射击手，迷你风格射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Mini_Shooters.jpg"
   },
@@ -2438,12 +2438,12 @@
     "game_category": "射击游戏",
     "id": 153,
     "title": "Sniper Reloaded",
-    "description": "狙击手重装，狙击手重装版射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Sniper_Reloaded.jpg"
   },
@@ -2454,12 +2454,12 @@
     "game_category": "射击游戏",
     "id": 154,
     "title": "Krunker io",
-    "description": "Krunker.io，经典io射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Krunker_io.jpg"
   },
@@ -2470,12 +2470,12 @@
     "game_category": "射击游戏",
     "id": 155,
     "title": "Sniper Elite",
-    "description": "狙击精英，精英狙击手射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Sniper_Elite.jpg"
   },
@@ -2486,12 +2486,12 @@
     "game_category": "射击游戏",
     "id": 156,
     "title": "Xtreme Paintball Wars",
-    "description": "极限彩弹战争，彩弹射击战争游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Xtreme_Paintball_Wars.jpg"
   },
@@ -2502,12 +2502,12 @@
     "game_category": "射击游戏",
     "id": 157,
     "title": "Storm City Mafia",
-    "description": "风暴城市黑手党，黑手党主题射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Storm_City_Mafia.jpg"
   },
@@ -2518,12 +2518,12 @@
     "game_category": "射击游戏",
     "id": 158,
     "title": "Masked Forces",
-    "description": "蒙面部队，蒙面部队射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Masked_Forces.jpg"
   },
@@ -2534,12 +2534,12 @@
     "game_category": "射击游戏",
     "id": 159,
     "title": "CobraZ.io Classic",
-    "description": "CobraZ.io经典版，经典io射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/CobraZ.io_Classic.jpg"
   },
@@ -2550,12 +2550,12 @@
     "game_category": "射击游戏",
     "id": 160,
     "title": "You vs 100 Skibidi Toilets",
-    "description": "你vs100个Skibidi马桶，对战100个马桶的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/You_vs_100_Skibidi_Toilets.jpg"
   },
@@ -2566,12 +2566,12 @@
     "game_category": "射击游戏",
     "id": 161,
     "title": "Tank Driver Simulator",
-    "description": "坦克驾驶员模拟器，驾驶坦克的模拟射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Tank_Driver_Simulator.jpg"
   },
@@ -2582,12 +2582,12 @@
     "game_category": "射击游戏",
     "id": 162,
     "title": "Battleship War",
-    "description": "战舰战争，战舰射击战争游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Battleship_War.jpg"
   },
@@ -2598,12 +2598,12 @@
     "game_category": "射击游戏",
     "id": 163,
     "title": "Bandits Multiplayer PvP",
-    "description": "土匪多人PvP，土匪主题多人对战射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Bandits_Multiplayer_PvP.jpg"
   },
@@ -2614,12 +2614,12 @@
     "game_category": "射击游戏",
     "id": 164,
     "title": "Flipping Gun Simulator",
-    "description": "翻转枪械模拟器，翻转枪械的模拟射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Flipping_Gun_Simulator.jpg"
   },
@@ -2630,12 +2630,12 @@
     "game_category": "射击游戏",
     "id": 165,
     "title": "Army Driver",
-    "description": "军队驾驶员，驾驶军用车辆的射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Army_Driver.jpg"
   },
@@ -2646,12 +2646,12 @@
     "game_category": "射击游戏",
     "id": 166,
     "title": "Counter Craft",
-    "description": "反恐工艺，反恐主题工艺射击游戏",
-    "category": "射擊遊戲",
+    "description": "Exciting shooting games with engaging gameplay and challenges",
+    "category": "Shooting Games",
     "tags": [
-      "射擊遊戲",
-      "免費",
-      "線上遊戲"
+      "Shooting",
+      "Free",
+      "Online"
     ],
     "image_url": "assets/images/Counter_Craft.jpg"
   }

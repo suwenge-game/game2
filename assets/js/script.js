@@ -332,7 +332,7 @@ function createGameCard(game) {
     
     card.innerHTML = `
         <div class="game-image">
-            <img src="${game.image_url}" alt="${game.title} - ${game.category}遊戲，標籤：${game.tags ? game.tags.join('、') : '無'}" loading="lazy" onerror="handleImageError(this);">
+            <img src="${game.image_url}" alt="${game.title} - ${game.category} game, tags: ${game.tags ? game.tags.join(', ') : 'none'}" loading="lazy" onerror="handleImageError(this);">
             <div class="game-image-fallback" style="display: none;">
                 <i class="fas fa-gamepad"></i>
                 <span>${game.title}</span>
@@ -351,7 +351,7 @@ function createGameCard(game) {
                 </div>
             </div>
             <button class="play-btn" onclick="openGameModal(${game.id})">
-                <i class="fas fa-play"></i> 開始遊戲
+                <i class="fas fa-play"></i> Start Game
             </button>
         </div>
     `;

@@ -1,10 +1,11 @@
 User-agent: *
 Allow: /
 
-# Disallow crawling of duplicate content
+# Disallow crawling of duplicate content and documentation
 Disallow: /assets/
 Disallow: /data/
 Disallow: /game-data-collection/
+Disallow: /*.md
 
 # Allow crawling of main pages
 Allow: /

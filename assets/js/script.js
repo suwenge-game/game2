@@ -546,8 +546,8 @@ function showLoadingAnimation() {
     loadingOverlay.innerHTML = `
         <div class="loading-content">
             <div class="loading-spinner"></div>
-            <h3>正在載入遊戲...</h3>
-            <p>請稍候，精彩遊戲即將呈現</p>
+            <h3>Loading Games...</h3>
+            <p>Please wait, exciting games are loading</p>
         </div>
     `;
     

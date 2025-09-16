@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Guides & Tips - Master Your Favorite Games | GameHub</title>
+    <meta name="description" content="Comprehensive game guides and tips to help you master your favorite games. Learn strategies, techniques, and secrets from our expert gaming community.">
+    <meta name="keywords" content="game guides, gaming tips, game strategies, walkthrough, gaming tutorials">
+    <meta name="author" content="GameHub Team">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gamehub.com/pages/game-guides.html">
+    <meta property="og:title" content="Game Guides & Tips - Master Your Favorite Games">
+    <meta property="og:description" content="Comprehensive game guides and tips to help you master your favorite games. Learn strategies, techniques, and secrets from our expert gaming community.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/667eea/ffffff?text=Game+Guides">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+    
+    <link rel="stylesheet" href="../assets/css/style.css?v=5">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .content-page {
+            padding: 2rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .content-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: white;
+        }
+        
+        .content-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .content-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .content-section h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        .content-section h3 {
+            color: #555;
+            margin: 1.5rem 0 1rem 0;
+            font-size: 1.5rem;
+        }
+        
+        .content-section p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        
+        .guide-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .guide-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 2rem;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+        
+        .guide-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .guide-card h4 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .guide-card p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        .guide-card ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        
+        .guide-card li {
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 2rem 0;
+        }
+        
+        .back-button:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        .tip-box {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid #2196f3;
+        }
+        
+        .tip-box h4 {
+            color: #1976d2;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tip-box p {
+            color: #1565c0;
+            margin: 0;
+        }
+        
+        .strategy-list {
+            background: #f3e5f5;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .strategy-list h4 {
+            color: #7b1fa2;
+            margin-bottom: 1rem;
+        }
+        
+        .strategy-list ol {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        
+        .strategy-list li {
+            margin-bottom: 0.5rem;
+            color: #6a1b9a;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page">
+        <div class="content-container">
+            <div class="content-header">
+                <h1>📚 Game Guides & Tips</h1>
+                <p>Master your favorite games with our comprehensive guides, expert tips, and proven strategies. From beginners to experts, we have something for every gamer!</p>
+            </div>
+            
+            <div class="content-section">
+                <h2>Welcome to GameHub's Guide Collection</h2>
+                <p>Whether you're just starting your gaming journey or looking to improve your skills, our comprehensive game guides are designed to help you succeed. Our expert team and community have compiled the most effective strategies, tips, and techniques to help you master any game.</p>
+                
+                <h3>🎯 What You'll Find Here</h3>
+                <p>Our guide collection covers everything from basic gameplay mechanics to advanced strategies. We provide detailed walkthroughs, character builds, weapon guides, and much more. Each guide is written by experienced players who have mastered the games they're writing about.</p>
+                
+                <div class="tip-box">
+                    <h4>💡 Pro Tip</h4>
+                    <p>Start with the basics! Even if you're an experienced gamer, reviewing fundamental concepts can help you identify areas for improvement and develop better overall strategies.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Shooting Game Mastery</h2>
+                <p>Shooting games require a unique combination of reflexes, strategy, and precision. Our comprehensive guides will help you develop the skills needed to dominate in any shooting game.</p>
+                
+                <div class="guide-grid">
+                    <div class="guide-card">
+                        <h4>🎯 Aiming Fundamentals</h4>
+                        <p>Master the basics of accurate shooting with these essential techniques:</p>
+                        <ul>
+                            <li>Crosshair placement and positioning</li>
+                            <li>Recoil control and compensation</li>
+                            <li>Flick shot techniques</li>
+                            <li>Tracking moving targets</li>
+                            <li>Pre-aiming common positions</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="guide-card">
+                        <h4>🏃 Movement and Positioning</h4>
+                        <p>Learn how to move effectively and position yourself for success:</p>
+                        <ul>
+                            <li>Strafing and counter-strafing</li>
+                            <li>Peek and shoot techniques</li>
+                            <li>Using cover effectively</li>
+                            <li>Map control strategies</li>
+                            <li>Escape routes and positioning</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="guide-card">
+                        <h4>🧠 Tactical Thinking</h4>
+                        <p>Develop your strategic mindset for competitive play:</p>
+                        <ul>
+                            <li>Team communication strategies</li>
+                            <li>Economy management</li>
+                            <li>Weapon selection for different situations</li>
+                            <li>Reading enemy patterns</li>
+                            <li>Adapting to different playstyles</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="guide-card">
+                        <h4>⚡ Advanced Techniques</h4>
+                        <p>Take your skills to the next level with advanced strategies:</p>
+                        <ul>
+                            <li>Bunny hopping and movement tricks</li>
+                            <li>Wall banging and penetration</li>
+                            <li>Smoke and flashbang usage</li>
+                            <li>Clutch situations and 1vX scenarios</li>
+                            <li>Mind games and psychological tactics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Action Game Strategies</h2>
+                <p>Action games test your reflexes, timing, and decision-making skills. Our guides will help you develop the muscle memory and strategic thinking needed to excel in fast-paced action games.</p>
+                
+                <div class="guide-grid">
+                    <div class="guide-card">
+                        <h4>⚔️ Combat Mastery</h4>
+                        <p>Learn the fundamentals of action game combat:</p>
+                        <ul>
+                            <li>Attack timing and rhythm</li>
+                            <li>Combo execution and chaining</li>
+                            <li>Defensive techniques and blocking</li>
+                            <li>Counter-attack opportunities</li>
+                            <li>Weapon switching strategies</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="guide-card">
+                        <h4>🏃 Platforming Techniques</h4>
+                        <p>Master movement and navigation in action games:</p>
+                        <ul>
+                            <li>Jump timing and precision</li>
+                            <li>Wall jumping and climbing</li>
+                            <li>Dash and dodge mechanics</li>
+                            <li>Momentum conservation</li>
+                            <li>Speedrun techniques</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="guide-card">
+                        <h4>🎮 Character Progression</h4>
+                        <p>Optimize your character builds and progression:</p>
+                        <ul>
+                            <li>Skill tree optimization</li>
+                            <li>Equipment and gear selection</li>
+                            <li>Stat distribution strategies</li>
+                            <li>Ability combinations</li>
+                            <li>Resource management</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="guide-card">
+                        <h4>🧩 Puzzle Solving</h4>
+                        <p>Develop your problem-solving skills for action-adventure games:</p>
+                        <ul>
+                            <li>Pattern recognition</li>
+                            <li>Environmental interaction</li>
+                            <li>Sequence memorization</li>
+                            <li>Logic puzzle approaches</li>
+                            <li>Time management strategies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Racing Game Excellence</h2>
+                <p>Racing games require precision, timing, and track knowledge. Our comprehensive guides will help you shave seconds off your lap times and master any racing game.</p>
+                
+                <div class="strategy-list">
+                    <h4>🏁 Racing Fundamentals</h4>
+                    <ol>
+                        <li><strong>Racing Line Mastery:</strong> Learn the optimal path through corners to maintain maximum speed</li>
+                        <li><strong>Braking Techniques:</strong> Master trail braking and threshold braking for better corner entry</li>
+                        <li><strong>Throttle Control:</strong> Understand when to apply power and how to manage wheelspin</li>
+                        <li><strong>Cornering Strategies:</strong> Learn different cornering techniques for various track types</li>
+                        <li><strong>Overtaking Moves:</strong> Master the art of clean, effective passing</li>
+                    </ol>
+                </div>
+                
+                <div class="strategy-list">
+                    <h4>🏎️ Advanced Racing Techniques</h4>
+                    <ol>
+                        <li><strong>Drafting and Slipstreaming:</strong> Use aerodynamic advantages to gain speed</li>
+                        <li><strong>Track Adaptation:</strong> Adjust your driving style for different track conditions</li>
+                        <li><strong>Setup Optimization:</strong> Fine-tune your vehicle settings for maximum performance</li>
+                        <li><strong>Weather Strategies:</strong> Adapt your driving for rain, snow, and changing conditions</li>
+                        <li><strong>Mental Preparation:</strong> Develop focus and concentration techniques for long races</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Puzzle Game Mastery</h2>
+                <p>Puzzle games challenge your logical thinking and problem-solving abilities. Our guides will help you develop the analytical skills needed to solve even the most complex puzzles.</p>
+                
+                <div class="guide-grid">
+                    <div class="guide-card">
+                        <h4>🧩 Problem-Solving Approaches</h4>
+                        <p>Develop systematic approaches to puzzle solving:</p>
+                        <ul>
+                            <li>Pattern recognition techniques</li>
+                            <li>Logical deduction methods</li>
+                            <li>Trial and error strategies</li>
+                            <li>Working backwards from solutions</li>
+                            <li>Breaking complex problems into parts</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="guide-card">
+                        <h4>🎯 Specific Puzzle Types</h4>
+                        <p>Master different categories of puzzles:</p>
+                        <ul>
+                            <li>Number puzzles and mathematical logic</li>
+                            <li>Spatial reasoning and 3D puzzles</li>
+                            <li>Word puzzles and language games</li>
+                            <li>Physics-based puzzle mechanics</li>
+                            <li>Sequence and pattern puzzles</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>General Gaming Tips</h2>
+                <p>These universal tips apply to almost any game and will help you improve your overall gaming performance and enjoyment.</p>
+                
+                <div class="strategy-list">
+                    <h4>🎮 Universal Gaming Strategies</h4>
+                    <ol>
+                        <li><strong>Practice Regularly:</strong> Consistent practice is more effective than marathon sessions</li>
+                        <li><strong>Learn from Mistakes:</strong> Analyze your failures to identify areas for improvement</li>
+                        <li><strong>Watch and Learn:</strong> Study gameplay videos from skilled players</li>
+                        <li><strong>Stay Calm Under Pressure:</strong> Develop techniques to maintain focus during intense moments</li>
+                        <li><strong>Take Breaks:</strong> Regular breaks prevent fatigue and maintain peak performance</li>
+                        <li><strong>Set Realistic Goals:</strong> Break down large objectives into manageable milestones</li>
+                        <li><strong>Join Communities:</strong> Connect with other players to share tips and strategies</li>
+                        <li><strong>Experiment with Settings:</strong> Optimize your controls and display settings for comfort</li>
+                    </ol>
+                </div>
+                
+                <div class="tip-box">
+                    <h4>💡 Mental Game</h4>
+                    <p>Gaming is as much a mental challenge as it is a physical one. Developing a positive mindset, learning to handle frustration, and maintaining focus are crucial skills that will improve your performance in any game.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Getting the Most Out of Our Guides</h2>
+                <p>To maximize the benefits of our game guides, follow these recommendations:</p>
+                
+                <h3>📖 How to Use Our Guides Effectively</h3>
+                <p><strong>Start with the Basics:</strong> Even if you're experienced, reviewing fundamental concepts can reveal new insights and help you identify areas for improvement.</p>
+                
+                <p><strong>Practice What You Learn:</strong> Reading about techniques is only the first step. You need to practice them in actual gameplay to develop muscle memory and understanding.</p>
+                
+                <p><strong>Adapt to Your Style:</strong> Not every technique will work for every player. Experiment with different approaches and find what works best for your playstyle.</p>
+                
+                <p><strong>Stay Updated:</strong> Games evolve over time with updates and patches. Check back regularly for updated strategies and new techniques.</p>
+                
+                <h3>🔄 Continuous Improvement</h3>
+                <p>Gaming skills develop over time through consistent practice and learning. Use our guides as a foundation, but don't be afraid to experiment and develop your own strategies. The best players are those who can adapt and innovate.</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to GameHub
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

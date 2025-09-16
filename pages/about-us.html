@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About GameHub - Your Ultimate Gaming Destination | GameHub</title>
+    <meta name="description" content="Learn about GameHub, your premier destination for free online games. Discover our mission, values, and commitment to providing the best gaming experience.">
+    <meta name="keywords" content="about GameHub, gaming platform, free online games, game community, gaming mission">
+    <meta name="author" content="GameHub Team">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gamehub.com/pages/about-us.html">
+    <meta property="og:title" content="About GameHub - Your Ultimate Gaming Destination">
+    <meta property="og:description" content="Learn about GameHub, your premier destination for free online games. Discover our mission, values, and commitment to providing the best gaming experience.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/667eea/ffffff?text=About+GameHub">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+    
+    <link rel="stylesheet" href="../assets/css/style.css?v=5">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .content-page {
+            padding: 2rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .content-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: white;
+        }
+        
+        .content-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .content-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .content-section h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        .content-section h3 {
+            color: #555;
+            margin: 1.5rem 0 1rem 0;
+            font-size: 1.5rem;
+        }
+        
+        .content-section p {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            border: 2px solid #e9ecef;
+        }
+        
+        .stat-item i {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .stat-item h4 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-item p {
+            color: #666;
+            font-weight: bold;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .value-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 2rem;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+        
+        .value-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .value-card h4 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .value-card p {
+            color: #666;
+            margin: 0;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 2rem 0;
+        }
+        
+        .back-button:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-left: 5px solid #2196f3;
+        }
+        
+        .highlight-box h4 {
+            color: #1976d2;
+            margin-bottom: 1rem;
+        }
+        
+        .highlight-box p {
+            color: #1565c0;
+            margin: 0;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .team-member {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border: 2px solid #e9ecef;
+        }
+        
+        .team-member i {
+            font-size: 4rem;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .team-member h4 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .team-member p {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page">
+        <div class="content-container">
+            <div class="content-header">
+                <h1>🎮 About GameHub</h1>
+                <p>Your premier destination for free online gaming. We're passionate about bringing you the best gaming experiences without any barriers.</p>
+            </div>
+            
+            <div class="content-section">
+                <h2>Our Story</h2>
+                <p>GameHub was born from a simple yet powerful idea: everyone deserves access to high-quality gaming experiences, regardless of their device or budget. Founded by a team of passionate gamers and developers, we set out to create a platform that would break down the barriers between players and their favorite games.</p>
+                
+                <p>What started as a small collection of browser-based games has grown into a comprehensive gaming platform featuring over 166 carefully curated titles. Our journey has been driven by our commitment to quality, accessibility, and the belief that gaming should be fun, free, and available to everyone.</p>
+                
+                <div class="highlight-box">
+                    <h4>🌟 Our Mission</h4>
+                    <p>To provide the world's best collection of free online games, accessible to everyone, everywhere, on any device. We believe that gaming is a universal language that brings people together, and we're committed to making that experience as seamless and enjoyable as possible.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>By the Numbers</h2>
+                <p>Our platform has grown significantly since our launch, and we're proud of the impact we've made in the gaming community:</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fas fa-gamepad"></i>
+                        <h4>166+</h4>
+                        <p>Free Games</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <h4>10K+</h4>
+                        <p>Daily Players</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-globe"></i>
+                        <h4>50+</h4>
+                        <p>Countries</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-star"></i>
+                        <h4>4.8/5</h4>
+                        <p>User Rating</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>What Sets Us Apart</h2>
+                <p>In a world full of gaming platforms, GameHub stands out for several key reasons that make us the preferred choice for millions of players worldwide:</p>
+                
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h4>🚀 Instant Play</h4>
+                        <p>No downloads, no installations, no waiting. Our games load instantly in your browser, letting you jump straight into the action without any barriers.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <h4>🎯 Curated Quality</h4>
+                        <p>Every game in our collection is carefully selected and tested to ensure it meets our high standards for gameplay, graphics, and overall quality.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <h4>📱 Universal Compatibility</h4>
+                        <p>Whether you're on a desktop, laptop, tablet, or mobile phone, our games work seamlessly across all devices and platforms.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <h4>🔄 Regular Updates</h4>
+                        <p>Our library is constantly growing with new games and updated versions, ensuring you always have fresh content to explore.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <h4>🛡️ Safe & Secure</h4>
+                        <p>We prioritize your safety and privacy, ensuring all our games are free from malware and your data is protected.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <h4>💬 Community Focused</h4>
+                        <p>We foster a welcoming community where players can share experiences, tips, and connect with fellow gaming enthusiasts.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Our Values</h2>
+                <p>At GameHub, our values guide everything we do, from game selection to platform development. These core principles shape our commitment to providing the best possible gaming experience:</p>
+                
+                <h3>🎮 Accessibility First</h3>
+                <p>We believe that gaming should be accessible to everyone, regardless of their technical expertise, device capabilities, or financial situation. Our platform is designed to work on any device with an internet connection, ensuring that no one is left out of the gaming experience.</p>
+                
+                <h3>🌟 Quality Over Quantity</h3>
+                <p>Rather than overwhelming users with thousands of mediocre games, we focus on curating a smaller collection of high-quality titles that provide genuine entertainment value. Every game in our library has been personally tested and approved by our team.</p>
+                
+                <h3>🤝 Community Driven</h3>
+                <p>Our community is at the heart of everything we do. We listen to player feedback, implement requested features, and continuously work to improve the platform based on what our users want and need.</p>
+                
+                <h3>🔒 Privacy & Security</h3>
+                <p>We take your privacy and security seriously. All our games are thoroughly vetted for safety, and we never collect unnecessary personal information. Your gaming experience should be worry-free.</p>
+                
+                <h3>🌍 Global Perspective</h3>
+                <p>Gaming is a universal language that transcends borders and cultures. We strive to provide games and experiences that appeal to players from all around the world, celebrating the diversity of our global gaming community.</p>
+            </div>
+            
+            <div class="content-section">
+                <h2>Our Team</h2>
+                <p>GameHub is powered by a diverse team of passionate individuals who share a common love for gaming and technology. Our team brings together expertise in game development, web technology, user experience, and community management.</p>
+                
+                <div class="team-grid">
+                    <div class="team-member">
+                        <i class="fas fa-code"></i>
+                        <h4>Development Team</h4>
+                        <p>Expert developers who ensure our platform runs smoothly and efficiently</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <i class="fas fa-gamepad"></i>
+                        <h4>Game Curators</h4>
+                        <p>Gaming enthusiasts who discover and test new games for our collection</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <i class="fas fa-paint-brush"></i>
+                        <h4>Design Team</h4>
+                        <p>Creative designers who make our platform beautiful and user-friendly</p>
+                    </div>
+                    
+                    <div class="team-member">
+                        <i class="fas fa-users"></i>
+                        <h4>Community Team</h4>
+                        <p>Community managers who foster engagement and support our players</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Our Commitment to You</h2>
+                <p>As we continue to grow and evolve, we remain committed to our core promise: providing you with the best possible gaming experience. Here's what you can expect from us:</p>
+                
+                <h3>📈 Continuous Improvement</h3>
+                <p>We're constantly working to improve our platform, add new features, and enhance the overall user experience. Your feedback drives our development priorities, and we're always looking for ways to make GameHub better.</p>
+                
+                <h3>🎯 Expanding Our Library</h3>
+                <p>Our game collection continues to grow with new titles added regularly. We work with developers worldwide to bring you the latest and greatest games, ensuring there's always something new to discover.</p>
+                
+                <h3>🛠️ Technical Excellence</h3>
+                <p>We invest heavily in our technical infrastructure to ensure fast loading times, reliable performance, and seamless gameplay across all devices and browsers.</p>
+                
+                <h3>💬 Open Communication</h3>
+                <p>We believe in transparent communication with our community. We regularly share updates about new features, upcoming games, and platform improvements through our various communication channels.</p>
+                
+                <div class="highlight-box">
+                    <h4>🎉 Join Our Journey</h4>
+                    <p>We're just getting started! As we continue to grow and improve, we invite you to be part of our community. Share your feedback, suggest new games, and help us make GameHub the ultimate destination for free online gaming.</p>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Looking Forward</h2>
+                <p>The future of gaming is bright, and we're excited to be part of it. As technology continues to evolve, we're committed to staying at the forefront of innovation while maintaining our core values of accessibility, quality, and community.</p>
+                
+                <p>We're working on exciting new features, partnerships, and improvements that will enhance your gaming experience even further. From new game categories to enhanced social features, we're constantly exploring ways to make GameHub better.</p>
+                
+                <p>Thank you for being part of the GameHub community. Your support, feedback, and passion for gaming drive us to be better every day. Together, we're building something truly special – a platform where everyone can enjoy the magic of gaming.</p>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to GameHub
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

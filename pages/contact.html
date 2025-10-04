@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GameHub</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q087PKG27K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Q087PKG27K');
+    </script>
+    
+    <meta name="description" content="Contact GameHub - Get in touch with our team for support, feedback, or business inquiries.">
+    <meta name="keywords" content="contact GameHub, customer support, gaming platform, feedback, business inquiries">
+    <meta name="author" content="GameHub Team">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+    
+    <link rel="stylesheet" href="../assets/css/style.css?v=5">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .content-page {
+            padding: 2rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .content-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: white;
+        }
+        
+        .content-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .contact-form {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .contact-info {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        
+        .btn-submit {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+        
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .contact-item i {
+            font-size: 2rem;
+            color: #667eea;
+            margin-right: 1rem;
+            width: 50px;
+            text-align: center;
+        }
+        
+        .contact-item-content h4 {
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        .contact-item-content p {
+            color: #666;
+            margin: 0;
+        }
+        
+        .contact-item-content a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .contact-item-content a:hover {
+            text-decoration: underline;
+        }
+        
+        .faq-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 1.5rem;
+        }
+        
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .faq-question {
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .faq-answer {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 2rem 0;
+        }
+        
+        .back-button:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .content-header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page">
+        <div class="content-container">
+            <div class="content-header">
+                <h1>📞 Contact Us</h1>
+                <p>We'd love to hear from you! Get in touch with our team for support, feedback, or business inquiries.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2 style="color: #333; margin-bottom: 2rem; text-align: center;">Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="business">Business Partnership</option>
+                                <option value="game-suggestion">Game Suggestion</option>
+                                <option value="bug-report">Bug Report</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Please describe your inquiry in detail..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h2 style="color: #333; margin-bottom: 2rem; text-align: center;">Get in Touch</h2>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-item-content">
+                            <h4>Email Support</h4>
+                            <p><a href="mailto:support@gamehub.com">support@gamehub.com</a></p>
+                            <p>We typically respond within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-briefcase"></i>
+                        <div class="contact-item-content">
+                            <h4>Business Inquiries</h4>
+                            <p><a href="mailto:business@gamehub.com">business@gamehub.com</a></p>
+                            <p>For partnerships and collaborations</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-gamepad"></i>
+                        <div class="contact-item-content">
+                            <h4>Game Suggestions</h4>
+                            <p><a href="mailto:games@gamehub.com">games@gamehub.com</a></p>
+                            <p>Suggest new games for our platform</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-bug"></i>
+                        <div class="contact-item-content">
+                            <h4>Bug Reports</h4>
+                            <p><a href="mailto:bugs@gamehub.com">bugs@gamehub.com</a></p>
+                            <p>Report technical issues and bugs</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="contact-item-content">
+                            <h4>Privacy & Legal</h4>
+                            <p><a href="mailto:legal@gamehub.com">legal@gamehub.com</a></p>
+                            <p>Privacy concerns and legal matters</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-section">
+                <h2 style="color: #333; margin-bottom: 2rem; text-align: center;">Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How do I report a bug or technical issue?</div>
+                    <div class="faq-answer">Please send an email to bugs@gamehub.com with a detailed description of the issue, including your browser type, device information, and steps to reproduce the problem.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Can I suggest new games for the platform?</div>
+                    <div class="faq-answer">Absolutely! We welcome game suggestions from our community. Send your recommendations to games@gamehub.com with details about the game and why you think it would be a good fit.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How long does it take to get a response?</div>
+                    <div class="faq-answer">We typically respond to all inquiries within 24-48 hours. Business inquiries may take slightly longer due to the complexity of the request.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer business partnerships?</div>
+                    <div class="faq-answer">Yes, we're always interested in exploring partnerships with game developers, publishers, and other gaming-related businesses. Contact us at business@gamehub.com.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How can I provide feedback about the platform?</div>
+                    <div class="faq-answer">We value your feedback! You can send your suggestions and comments to feedback@gamehub.com or use the contact form above.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Is there a way to contact you for media inquiries?</div>
+                    <div class="faq-answer">For media and press inquiries, please contact us at press@gamehub.com. We'll get back to you as soon as possible.</div>
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to GameHub
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // Simple validation
+            if (!name || !email || !subject || !message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Simulate form submission
+            alert('Thank you for your message! We will get back to you within 24 hours.');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>

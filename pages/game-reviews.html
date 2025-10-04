@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews & Guides - GameHub</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q087PKG27K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Q087PKG27K');
+    </script>
+    
+    <meta name="description" content="Read detailed game reviews, guides, and tips for the best online games on GameHub. Expert analysis and player insights to help you master your favorite games.">
+    <meta name="keywords" content="game reviews, gaming guides, game tips, online games, GameHub reviews, gaming strategy">
+    <meta name="author" content="GameHub Team">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+    
+    <link rel="stylesheet" href="../assets/css/style.css?v=5">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .content-page {
+            padding: 2rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .content-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: white;
+        }
+        
+        .content-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .review-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .review-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .review-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .review-image {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+            margin-right: 1rem;
+        }
+        
+        .review-info h3 {
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+        
+        .review-meta {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .review-rating {
+            display: flex;
+            gap: 0.2rem;
+            margin: 1rem 0;
+        }
+        
+        .star {
+            color: #ffc107;
+            font-size: 1.2rem;
+        }
+        
+        .review-excerpt {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        
+        .review-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tag {
+            background: #e9ecef;
+            color: #495057;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        
+        .featured-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .featured-section h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 2rem 0;
+        }
+        
+        .back-button:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .reviews-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .content-header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page">
+        <div class="content-container">
+            <div class="content-header">
+                <h1>🎮 Game Reviews & Guides</h1>
+                <p>Expert reviews, detailed guides, and insider tips to help you master the best online games on GameHub.</p>
+            </div>
+            
+            <div class="featured-section">
+                <h2>🌟 Featured Reviews</h2>
+                <p>Our team of gaming experts has thoroughly tested and reviewed the most popular games on our platform. Each review includes detailed gameplay analysis, graphics assessment, and overall recommendations to help you choose the perfect game for your gaming session.</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-image">🎯</div>
+                        <div class="review-info">
+                            <h3>Geometry Arrow</h3>
+                            <div class="review-meta">Action Game • 5-15 min playtime</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <div class="review-excerpt">
+                        Geometry Arrow delivers a perfect blend of precision gameplay and stunning visual design. The minimalist aesthetic combined with challenging physics-based puzzles creates an engaging experience that tests both your timing and spatial awareness skills.
+                    </div>
+                    <div class="review-tags">
+                        <span class="tag">Physics-based</span>
+                        <span class="tag">Puzzle</span>
+                        <span class="tag">Minimalist</span>
+                        <span class="tag">Challenging</span>
+                    </div>
+                    <a href="#" class="read-more">
+                        Read Full Review <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-image">⚔️</div>
+                        <div class="review-info">
+                            <h3>Bloxd io</h3>
+                            <div class="review-meta">Battle Royale • 10-30 min playtime</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">☆</span>
+                    </div>
+                    <div class="review-excerpt">
+                        This multiplayer battle royale combines strategic building with intense combat action. The block-based world allows for creative base construction while the real-time PvP battles keep the adrenaline pumping throughout each match.
+                    </div>
+                    <div class="review-tags">
+                        <span class="tag">Multiplayer</span>
+                        <span class="tag">Strategy</span>
+                        <span class="tag">Building</span>
+                        <span class="tag">Competitive</span>
+                    </div>
+                    <a href="#" class="read-more">
+                        Read Full Review <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-image">🔫</div>
+                        <div class="review-info">
+                            <h3>Masked Special Forces</h3>
+                            <div class="review-meta">FPS • 15-45 min playtime</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <div class="review-excerpt">
+                        A tactical first-person shooter that emphasizes teamwork and strategic positioning. The masked special forces theme adds an element of mystery while the realistic weapon mechanics provide an authentic combat experience.
+                    </div>
+                    <div class="review-tags">
+                        <span class="tag">FPS</span>
+                        <span class="tag">Tactical</span>
+                        <span class="tag">Team-based</span>
+                        <span class="tag">Realistic</span>
+                    </div>
+                    <a href="#" class="read-more">
+                        Read Full Review <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-image">🏎️</div>
+                        <div class="review-info">
+                            <h3>Speed Racing Championship</h3>
+                            <div class="review-meta">Racing • 5-20 min playtime</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">☆</span>
+                    </div>
+                    <div class="review-excerpt">
+                        High-speed racing action with stunning graphics and responsive controls. The championship mode offers progressive difficulty while the variety of tracks and vehicles keeps the gameplay fresh and exciting.
+                    </div>
+                    <div class="review-tags">
+                        <span class="tag">Racing</span>
+                        <span class="tag">High-speed</span>
+                        <span class="tag">Championship</span>
+                        <span class="tag">Multi-vehicle</span>
+                    </div>
+                    <a href="#" class="read-more">
+                        Read Full Review <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-image">🧩</div>
+                        <div class="review-info">
+                            <h3>Mind Bender Puzzles</h3>
+                            <div class="review-meta">Puzzle • 10-30 min playtime</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <div class="review-excerpt">
+                        A collection of brain-teasing puzzles that challenge your logical thinking and problem-solving skills. The progressive difficulty system ensures both beginners and puzzle masters will find appropriate challenges.
+                    </div>
+                    <div class="review-tags">
+                        <span class="tag">Puzzle</span>
+                        <span class="tag">Logic</span>
+                        <span class="tag">Brain-training</span>
+                        <span class="tag">Progressive</span>
+                    </div>
+                    <a href="#" class="read-more">
+                        Read Full Review <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-image">⚽</div>
+                        <div class="review-info">
+                            <h3>Ultimate Sports Arena</h3>
+                            <div class="review-meta">Sports • 10-25 min playtime</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">☆</span>
+                    </div>
+                    <div class="review-excerpt">
+                        Experience multiple sports in one comprehensive game. From soccer to basketball, each sport features realistic physics and intuitive controls that make you feel like a professional athlete.
+                    </div>
+                    <div class="review-tags">
+                        <span class="tag">Sports</span>
+                        <span class="tag">Multi-sport</span>
+                        <span class="tag">Realistic</span>
+                        <span class="tag">Competitive</span>
+                    </div>
+                    <a href="#" class="read-more">
+                        Read Full Review <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="featured-section">
+                <h2>📚 Gaming Guides & Tips</h2>
+                <p>Master your favorite games with our comprehensive guides, strategy tips, and expert advice. Whether you're a beginner looking to improve or an experienced player seeking advanced techniques, our guides will help you level up your gameplay.</p>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #667eea;">
+                        <h4 style="color: #333; margin-bottom: 1rem;">🎯 Beginner's Guide to Online Gaming</h4>
+                        <p style="color: #666; margin-bottom: 1rem;">Learn the fundamentals of online gaming, from basic controls to understanding game mechanics and developing your skills.</p>
+                        <a href="#" style="color: #667eea; text-decoration: none; font-weight: 600;">Read Guide →</a>
+                    </div>
+                    
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #667eea;">
+                        <h4 style="color: #333; margin-bottom: 1rem;">⚡ Advanced Gaming Strategies</h4>
+                        <p style="color: #666; margin-bottom: 1rem;">Take your gaming to the next level with advanced strategies, optimization tips, and competitive techniques used by pro players.</p>
+                        <a href="#" style="color: #667eea; text-decoration: none; font-weight: 600;">Read Guide →</a>
+                    </div>
+                    
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #667eea;">
+                        <h4 style="color: #333; margin-bottom: 1rem;">🏆 Tournament Preparation</h4>
+                        <p style="color: #666; margin-bottom: 1rem;">Prepare for competitive gaming tournaments with our comprehensive guide covering practice routines, mental preparation, and performance optimization.</p>
+                        <a href="#" style="color: #667eea; text-decoration: none; font-weight: 600;">Read Guide →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to GameHub
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

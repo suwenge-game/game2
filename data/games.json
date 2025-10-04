@@ -6,14 +6,19 @@
     "game_category": "动作游戏",
     "id": 1,
     "title": "Geometry Arrow",
-    "description": "Control arrows flying through geometric worlds in this action-packed game",
+    "description": "Navigate through stunning geometric landscapes in this precision-based action game. Master the art of arrow physics as you guide your projectile through increasingly complex mazes and obstacles. Features beautiful minimalist graphics, challenging level design, and smooth controls that test your timing and accuracy skills.",
     "category": "Action Games",
     "tags": [
       "Action",
+      "Physics",
+      "Puzzle",
       "Free",
       "Online"
     ],
-    "image_url": "assets/images/Geometry_Arrow.jpg"
+    "image_url": "assets/images/Geometry_Arrow.jpg",
+    "difficulty": "Medium",
+    "play_time": "5-15 minutes",
+    "age_rating": "E for Everyone"
   },
   {
     "game_name": "Bloxd io",
@@ -22,14 +27,20 @@
     "game_category": "动作游戏",
     "id": 2,
     "title": "Bloxd io",
-    "description": "Exciting action games with engaging gameplay and challenges",
+    "description": "Enter the competitive world of Bloxd io, where strategy meets action in this multiplayer battle royale game. Build your base, collect resources, and eliminate opponents in this fast-paced survival game. Features real-time multiplayer action, strategic building mechanics, and endless replayability with procedurally generated maps.",
     "category": "Action Games",
     "tags": [
       "Action",
+      "Multiplayer",
+      "Battle Royale",
+      "Strategy",
       "Free",
       "Online"
     ],
-    "image_url": "assets/images/Bloxd_io.jpg"
+    "image_url": "assets/images/Bloxd_io.jpg",
+    "difficulty": "Hard",
+    "play_time": "10-30 minutes",
+    "age_rating": "T for Teen"
   },
   {
     "game_name": "Masked Special Forces",

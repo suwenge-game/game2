@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming News & Updates - GameHub</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q087PKG27K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Q087PKG27K');
+    </script>
+    
+    <meta name="description" content="Stay updated with the latest gaming news, industry updates, and new game releases. Get insights into the gaming world and discover trending games.">
+    <meta name="keywords" content="gaming news, game updates, new game releases, gaming industry, gaming trends, GameHub news">
+    <meta name="author" content="GameHub Team">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+    
+    <link rel="stylesheet" href="../assets/css/style.css?v=5">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .content-page {
+            padding: 2rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .content-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: white;
+        }
+        
+        .content-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .content-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .news-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .news-section h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .news-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 1.5rem;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-3px);
+        }
+        
+        .news-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .news-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        
+        .news-card h3 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            line-height: 1.4;
+        }
+        
+        .news-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .news-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .news-tag {
+            background: #e9ecef;
+            color: #495057;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .read-more {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        
+        .featured-news {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-left: 5px solid #2196f3;
+        }
+        
+        .featured-news h3 {
+            color: #1976d2;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .featured-news p {
+            color: #1565c0;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 2rem 0;
+        }
+        
+        .back-button:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .content-header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-page">
+        <div class="content-container">
+            <div class="content-header">
+                <h1>📰 Gaming News & Updates</h1>
+                <p>Stay informed with the latest gaming news, industry updates, and exciting new releases in the world of online gaming.</p>
+            </div>
+            
+            <div class="featured-news">
+                <h3>🌟 Featured: GameHub Platform Update</h3>
+                <p>We're excited to announce major updates to the GameHub platform, including improved performance, new game categories, and enhanced user experience features. Our team has been working hard to bring you the best gaming experience possible.</p>
+                <a href="#" class="read-more">Read Full Update <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="news-section">
+                <h2>🔥 Latest Gaming News</h2>
+                
+                <div class="news-grid">
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> December 1, 2024</span>
+                            <span><i class="fas fa-user"></i> GameHub Team</span>
+                        </div>
+                        <h3>New Action Games Added to GameHub Collection</h3>
+                        <p>We've expanded our action game library with 15 new titles featuring cutting-edge graphics, immersive gameplay, and innovative mechanics. These games offer everything from fast-paced combat to strategic planning elements.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Action Games</span>
+                            <span class="news-tag">New Releases</span>
+                            <span class="news-tag">Platform Update</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 28, 2024</span>
+                            <span><i class="fas fa-user"></i> Gaming Industry</span>
+                        </div>
+                        <h3>Browser Gaming Technology Advances in 2024</h3>
+                        <p>Recent developments in web technologies have enabled browser games to achieve console-quality graphics and performance. This breakthrough is revolutionizing the online gaming landscape and making high-quality games more accessible.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Technology</span>
+                            <span class="news-tag">Browser Gaming</span>
+                            <span class="news-tag">Innovation</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 25, 2024</span>
+                            <span><i class="fas fa-user"></i> GameHub Team</span>
+                        </div>
+                        <h3>Mobile Gaming Optimization Improvements</h3>
+                        <p>Our latest update focuses on enhancing the mobile gaming experience with improved touch controls, better performance optimization, and responsive design improvements that make games more enjoyable on smartphones and tablets.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Mobile Gaming</span>
+                            <span class="news-tag">Optimization</span>
+                            <span class="news-tag">User Experience</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 22, 2024</span>
+                            <span><i class="fas fa-user"></i> Gaming Community</span>
+                        </div>
+                        <h3>Rise of Indie Browser Games in 2024</h3>
+                        <p>Independent developers are creating innovative browser games that rival traditional gaming experiences. These indie titles bring fresh perspectives, unique art styles, and creative gameplay mechanics to the online gaming world.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Indie Games</span>
+                            <span class="news-tag">Innovation</span>
+                            <span class="news-tag">Community</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 20, 2024</span>
+                            <span><i class="fas fa-user"></i> GameHub Team</span>
+                        </div>
+                        <h3>New Puzzle Games Collection Launched</h3>
+                        <p>We've curated a special collection of brain-teasing puzzle games that challenge your logical thinking and problem-solving skills. From classic puzzles to innovative new mechanics, there's something for every puzzle enthusiast.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Puzzle Games</span>
+                            <span class="news-tag">New Collection</span>
+                            <span class="news-tag">Brain Training</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 18, 2024</span>
+                            <span><i class="fas fa-user"></i> Gaming Industry</span>
+                        </div>
+                        <h3>Multiplayer Gaming Trends for 2025</h3>
+                        <p>Industry experts predict significant growth in multiplayer browser games, with new technologies enabling seamless cross-platform play and enhanced social features that bring players together from around the world.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Multiplayer</span>
+                            <span class="news-tag">Trends</span>
+                            <span class="news-tag">2025 Predictions</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="news-section">
+                <h2>🎮 GameHub Updates & Announcements</h2>
+                
+                <div class="news-grid">
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 15, 2024</span>
+                            <span><i class="fas fa-user"></i> GameHub Team</span>
+                        </div>
+                        <h3>Enhanced Search and Filtering System</h3>
+                        <p>Our new search system makes it easier than ever to find your perfect game. With improved filtering options, personalized recommendations, and faster search results, discovering new games has never been more intuitive.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Platform Update</span>
+                            <span class="news-tag">Search</span>
+                            <span class="news-tag">User Experience</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 12, 2024</span>
+                            <span><i class="fas fa-user"></i> GameHub Team</span>
+                        </div>
+                        <h3>Community Features and Social Integration</h3>
+                        <p>Connect with fellow gamers through our new community features. Share your achievements, discuss strategies, and make new friends in the GameHub gaming community.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Community</span>
+                            <span class="news-tag">Social Features</span>
+                            <span class="news-tag">User Engagement</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 10, 2024</span>
+                            <span><i class="fas fa-user"></i> GameHub Team</span>
+                        </div>
+                        <h3>Performance Optimization and Speed Improvements</h3>
+                        <p>We've implemented significant performance improvements that make games load faster and run smoother. These optimizations ensure the best possible gaming experience across all devices and browsers.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Performance</span>
+                            <span class="news-tag">Optimization</span>
+                            <span class="news-tag">Speed</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="news-section">
+                <h2>🏆 Gaming Industry Insights</h2>
+                
+                <div class="news-grid">
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 8, 2024</span>
+                            <span><i class="fas fa-user"></i> Industry Analysis</span>
+                        </div>
+                        <h3>The Future of Free-to-Play Gaming</h3>
+                        <p>Analysis of current trends in free-to-play gaming shows continued growth in browser-based games, with developers focusing on quality content and sustainable monetization models that benefit both players and creators.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">Industry Analysis</span>
+                            <span class="news-tag">Free-to-Play</span>
+                            <span class="news-tag">Future Trends</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-card">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> November 5, 2024</span>
+                            <span><i class="fas fa-user"></i> Technology News</span>
+                        </div>
+                        <h3>WebAssembly Revolutionizes Browser Gaming</h3>
+                        <p>WebAssembly technology is enabling browser games to achieve near-native performance, opening up new possibilities for complex 3D games, real-time multiplayer experiences, and advanced graphics in web browsers.</p>
+                        <div class="news-tags">
+                            <span class="news-tag">WebAssembly</span>
+                            <span class="news-tag">Technology</span>
+                            <span class="news-tag">Performance</span>
+                        </div>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">
+                    <i class="fas fa-arrow-left"></i> Back to GameHub
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

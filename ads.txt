@@ -1,1 +1,12 @@
+# ads.txt file for GameHub
+# This file is used to authorize digital sellers to sell our inventory
+# For more information, visit: https://iabtechlab.com/ads-txt/
+
+# Google AdSense
 google.com, pub-9132117639313977, DIRECT, f08c47fec0942fa0
+
+# Google Ad Manager (if applicable)
+google.com, pub-9132117639313977, DIRECT, f08c47fec0942fa0
+
+# Additional authorized sellers (add as needed)
+# Example: google.com, pub-XXXXXXXXXX, DIRECT, f08c47fec0942fa0

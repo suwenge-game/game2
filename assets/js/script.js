@@ -150,6 +150,24 @@ function initializeNavigation() {
     // 導航連結點擊
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            
+            // 如果是外部链接（不以#开头），允许默认行为
+            if (!href.startsWith('#')) {
+                // 移除所有 active 類
+                navLinks.forEach(l => l.classList.remove('active'));
+                // 添加 active 類到當前連結
+                this.classList.add('active');
+                
+                // 關閉手機版選單
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                
+                // 允许外部链接正常跳转
+                return true;
+            }
+            
+            // 对于内部锚点链接，阻止默认行为并处理
             e.preventDefault();
             
             // 移除所有 active 類

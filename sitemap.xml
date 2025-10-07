@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Main Pages -->
     <url>
-        <loc>https://suwenge-game.github.io/game2/</loc>
+        <loc>https://deskgamehub.online/</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -10,19 +10,19 @@
     
     <!-- Game Category Pages -->
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/shooting-games.html</loc>
+        <loc>https://deskgamehub.online/pages/shooting-games.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/action-games.html</loc>
+        <loc>https://deskgamehub.online/pages/action-games.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/game-guides.html</loc>
+        <loc>https://deskgamehub.online/pages/game-guides.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -30,19 +30,19 @@
     
     <!-- Content Pages -->
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/game-reviews.html</loc>
+        <loc>https://deskgamehub.online/pages/game-reviews.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/gaming-tips.html</loc>
+        <loc>https://deskgamehub.online/pages/gaming-tips.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/gaming-news.html</loc>
+        <loc>https://deskgamehub.online/pages/gaming-news.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
@@ -50,13 +50,13 @@
     
     <!-- Information Pages -->
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/about-us.html</loc>
+        <loc>https://deskgamehub.online/pages/about-us.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/contact.html</loc>
+        <loc>https://deskgamehub.online/pages/contact.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -64,13 +64,13 @@
     
     <!-- Legal Pages -->
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/privacy-policy.html</loc>
+        <loc>https://deskgamehub.online/pages/privacy-policy.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://suwenge-game.github.io/game2/pages/terms-of-service.html</loc>
+        <loc>https://deskgamehub.online/pages/terms-of-service.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
@@ -78,13 +78,13 @@
     
     <!-- Dynamic Content Sections -->
     <url>
-        <loc>https://suwenge-game.github.io/game2/categories</loc>
+        <loc>https://deskgamehub.online/categories</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://suwenge-game.github.io/game2/games</loc>
+        <loc>https://deskgamehub.online/games</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>

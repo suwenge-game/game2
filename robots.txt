@@ -37,7 +37,7 @@ Allow: /favicon.ico
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://suwenge-game.github.io/game2/sitemap.xml
+Sitemap: https://deskgamehub.online/sitemap.xml
 
 # GameHub Content Description
 # Unique gaming content: Game reviews, gaming tips, gaming news, 

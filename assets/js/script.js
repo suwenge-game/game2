@@ -43,7 +43,7 @@ function getFallbackGamesData() {
         {
             id: 1,
             title: "Space Adventure",
-            image_url: "https://via.placeholder.com/300x200/667eea/ffffff?text=Space+Adventure",
+            image_url: "assets/images/fallback-game-card.png",
             description: "Embark on an epic adventure journey in the vast universe, explore unknown planets, and battle alien creatures.",
             category: "action",
             tags: ["sci-fi", "adventure", "single-player"]
@@ -51,7 +51,7 @@ function getFallbackGamesData() {
         {
             id: 2,
             title: "Sudoku Master",
-            image_url: "https://via.placeholder.com/300x200/764ba2/ffffff?text=Sudoku+Master",
+            image_url: "assets/images/fallback-game-card.png",
             description: "Challenge classic Sudoku puzzles, from easy to difficult, improve your logical thinking skills.",
             category: "puzzle",
             tags: ["puzzle", "logic", "single-player"]
@@ -392,12 +392,12 @@ function filterGamesByCategory(category) {
     } else {
         // 將英文類別映射到中文類別
         const categoryMap = {
-            'action': '動作遊戲',
-            'puzzle': '解謎遊戲', 
-            'racing': '競速遊戲',
-            'sports': '運動遊戲',
-            'shooting': '射擊遊戲',
-            'simulator': '模擬遊戲'
+            'action': 'Action Games',
+            'puzzle': 'Puzzle Games', 
+            'racing': 'Racing Games',
+            'sports': 'Sports Games',
+            'shooting': 'Shooting Games',
+            'simulator': 'Simulation Games'
         };
         
         const targetCategory = categoryMap[category] || category;

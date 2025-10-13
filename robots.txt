@@ -6,8 +6,8 @@ User-agent: *
 Allow: /
 
 # Disallow crawling of technical files and documentation
-Disallow: /assets/
-Disallow: /data/
+Allow: /assets/
+Allow: /data/
 Disallow: /game-data-collection/
 Disallow: /*.md
 Disallow: /new_word_mining/

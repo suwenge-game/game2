@@ -26,10 +26,10 @@
     <meta property="og:url" content="https://deskgamehub.online/pages/game-reviews.html">
     <meta property="og:title" content="Game Reviews & Guides - GameHub">
     <meta property="og:description" content="Read detailed game reviews, guides, and tips for the best online games on GameHub. Expert analysis and player insights to help you master your favorite games.">
-    <meta property="og:image" content="https://via.placeholder.com/1200x630/667eea/ffffff?text=Game+Reviews">
+    <meta property="og:image" content="https://deskgamehub.online/assets/images/og-default.png">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+    <link rel="icon" type="image/png" href="../assets/images/logo.png">
     
     <link rel="stylesheet" href="../assets/css/style.css?v=5">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -148,17 +148,41 @@
             font-weight: 500;
         }
         
-        .read-more {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 600;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
+        .review-extended {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e7ff;
+            color: #444;
+            line-height: 1.65;
+            font-size: 0.95rem;
         }
         
-        .read-more:hover {
-            text-decoration: underline;
+        .review-extended ul {
+            margin: 0.75rem 0 0 1.2rem;
+            padding: 0;
+            list-style: disc;
+        }
+        
+        .review-extended li {
+            margin-bottom: 0.4rem;
+        }
+        
+        .guide-details {
+            background: #eef1ff;
+            border-radius: 10px;
+            padding: 1rem 1.5rem;
+            color: #3f4672;
+            line-height: 1.6;
+        }
+        
+        .guide-details ul {
+            margin: 0.75rem 0 0 1.2rem;
+            padding: 0;
+            list-style: disc;
+        }
+        
+        .guide-details li {
+            margin-bottom: 0.35rem;
         }
         
         .featured-section {
@@ -243,9 +267,14 @@
                         <span class="tag">Minimalist</span>
                         <span class="tag">Challenging</span>
                     </div>
-                    <a href="#" class="read-more">
-                        Read Full Review <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="review-extended">
+                        <p>Each level layers new hazards such as rotating prisms, gravity wells, and wind tunnels that force you to recalibrate your launch angle. Perfect runs reward precision badges that unlock neon arrow trails and alternative soundtrack themes.</p>
+                        <ul>
+                            <li>Practice in the Free Aim range to learn how momentum carries through chained portals.</li>
+                            <li>Use the Time Dilation perk to slow tricky segments when collectibles sit behind moving shields.</li>
+                            <li>Weekly challenges remix earlier stages with modifier mutators, ideal for leaderboard climbs.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div class="review-card">
@@ -272,9 +301,14 @@
                         <span class="tag">Building</span>
                         <span class="tag">Competitive</span>
                     </div>
-                    <a href="#" class="read-more">
-                        Read Full Review <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="review-extended">
+                        <p>Resource scarcity keeps every match tense. You can reinforce bases with carbon blocks that resist explosives, but doing so consumes rare shards better used for unlockable gadgets. The mid-game hinges on deciding when to rotate into contested zones versus farming in the outskirts.</p>
+                        <ul>
+                            <li>Queue with friends and assign roles: one builder, one scout, and two flex combatants.</li>
+                            <li>Watch the storm tracker—Version 2.6 added unpredictable gusts that can expose roof campers.</li>
+                            <li>Battle Pass quests encourage experimenting with the new glider and grappling hook combo for high ground control.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div class="review-card">
@@ -301,9 +335,14 @@
                         <span class="tag">Team-based</span>
                         <span class="tag">Realistic</span>
                     </div>
-                    <a href="#" class="read-more">
-                        Read Full Review <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="review-extended">
+                        <p>Matches reward strategic utility usage: thermal drones scout corridors, sonic pulses reveal hidden snipers, and breaching charges open alternate entry points. Weapon recoil patterns mimic real firing behavior, so practicing in the Training Bay dramatically improves consistency.</p>
+                        <ul>
+                            <li>Coordinate with your squad to chain smoke grenades and flashbangs when taking fortified objectives.</li>
+                            <li>Unlock the Recon Operative class to gain access to heartbeat sensors that counter stealth builds.</li>
+                            <li>Competitive ladder seasons reset monthly, offering exclusive camouflage skins for top percentile teams.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div class="review-card">
@@ -330,9 +369,14 @@
                         <span class="tag">Championship</span>
                         <span class="tag">Multi-vehicle</span>
                     </div>
-                    <a href="#" class="read-more">
-                        Read Full Review <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="review-extended">
+                        <p>The career ladder introduces adaptive AI rivals who learn from your cornering lines. Early circuits emphasize precise braking zones, while later Grand Prix tiers throw in dynamic weather that demands quick tire swaps and throttle modulation.</p>
+                        <ul>
+                            <li>Invest credits in aerodynamic upgrades first; they provide the best lap time gains per currency spent.</li>
+                            <li>Use time trials to master drift boosts—perfect drift chains refill nitro faster than standard racing.</li>
+                            <li>Weekly tournaments rotate through mirrored tracks, so memorize alternate layouts to avoid surprises.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div class="review-card">
@@ -359,9 +403,14 @@
                         <span class="tag">Brain-training</span>
                         <span class="tag">Progressive</span>
                     </div>
-                    <a href="#" class="read-more">
-                        Read Full Review <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="review-extended">
+                        <p>Mind Bender Puzzles alternates between spatial reasoning tasks, cipher decoding, and pattern recognition, ensuring no two sessions feel identical. Each puzzle contains a developer note that explains the intended solution path and optional twists for veteran players.</p>
+                        <ul>
+                            <li>The Daily Mastermind puzzle introduces leaderboard seed codes—share them with friends to compare completion times.</li>
+                            <li>Enable Focus Mode to remove timers and background music when you want a meditative experience.</li>
+                            <li>Completing weekly collections unlocks lore entries that hint at future puzzle packs.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div class="review-card">
@@ -388,9 +437,14 @@
                         <span class="tag">Realistic</span>
                         <span class="tag">Competitive</span>
                     </div>
-                    <a href="#" class="read-more">
-                        Read Full Review <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="review-extended">
+                        <p>Arena mode rotates between five disciplines—soccer, basketball, tennis, hockey, and street dodgeball—each with its own control scheme and progression tree. Momentum carries between events, so building confidence in one discipline grants stat bonuses in the next.</p>
+                        <ul>
+                            <li>Customize athletes with training cards to boost stamina or precision depending on the upcoming schedule.</li>
+                            <li>Local co-op supports split objectives: one player can handle offense while another focuses on defense tactics.</li>
+                            <li>Seasonal leagues culminate in a championship bracket that rewards exclusive stadium cosmetics.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             
@@ -402,19 +456,37 @@
                     <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #667eea;">
                         <h4 style="color: #333; margin-bottom: 1rem;">🎯 Beginner's Guide to Online Gaming</h4>
                         <p style="color: #666; margin-bottom: 1rem;">Learn the fundamentals of online gaming, from basic controls to understanding game mechanics and developing your skills.</p>
-                        <a href="#" style="color: #667eea; text-decoration: none; font-weight: 600;">Read Guide →</a>
+                        <div class="guide-details">
+                            <ul>
+                                <li>Set up your input device and tweak sensitivity before diving into competitive lobbies.</li>
+                                <li>Learn common HUD icons so you can interpret status effects and objectives at a glance.</li>
+                                <li>Practice in solo modes to understand pacing, then graduate to casual multiplayer playlists.</li>
+                            </ul>
+                        </div>
                     </div>
                     
                     <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #667eea;">
                         <h4 style="color: #333; margin-bottom: 1rem;">⚡ Advanced Gaming Strategies</h4>
                         <p style="color: #666; margin-bottom: 1rem;">Take your gaming to the next level with advanced strategies, optimization tips, and competitive techniques used by pro players.</p>
-                        <a href="#" style="color: #667eea; text-decoration: none; font-weight: 600;">Read Guide →</a>
+                        <div class="guide-details">
+                            <ul>
+                                <li>Analyze match replays to spot positioning errors and resource mismanagement.</li>
+                                <li>Create warm-up drills that mix mechanical training with decision-making scenarios.</li>
+                                <li>Track in-game economy cycles to time power spikes and punish opponent misplays.</li>
+                            </ul>
+                        </div>
                     </div>
                     
                     <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #667eea;">
                         <h4 style="color: #333; margin-bottom: 1rem;">🏆 Tournament Preparation</h4>
                         <p style="color: #666; margin-bottom: 1rem;">Prepare for competitive gaming tournaments with our comprehensive guide covering practice routines, mental preparation, and performance optimization.</p>
-                        <a href="#" style="color: #667eea; text-decoration: none; font-weight: 600;">Read Guide →</a>
+                        <div class="guide-details">
+                            <ul>
+                                <li>Build a balanced scrim schedule that alternates strategy reviews with mechanical refinement.</li>
+                                <li>Use breathing exercises and visualization techniques to keep nerves in check on stage.</li>
+                                <li>Prepare contingency plans for map picks, roster swaps, and technical delays.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -2665,5 +2665,65 @@
       "Online"
     ],
     "image_url": "assets/images/Counter_Craft.jpg"
+  },
+  {
+    "game_name": "Speed Racing Championship",
+    "game_link": "https://www.onlinegames.io/speed-racing-championship/",
+    "game_description": "Compete in high-octane championships across dynamic city circuits, tune your car for every weather condition, and master cornering techniques to climb the leaderboard.",
+    "game_category": "Racing Games",
+    "id": 167,
+    "title": "Speed Racing Championship",
+    "description": "Compete in dynamic street and circuit races, tune your car for every weather condition, and chase seasonal leaderboard glory in Speed Racing Championship.",
+    "category": "Racing Games",
+    "tags": [
+      "Racing",
+      "Driving",
+      "Customization",
+      "Leaderboard"
+    ],
+    "image_url": "assets/images/Speed_Racing_Championship.jpg",
+    "difficulty": "Hard",
+    "play_time": "5-20 minutes",
+    "age_rating": "E for Everyone"
+  },
+  {
+    "game_name": "Mind Bender Puzzles",
+    "game_link": "https://www.onlinegames.io/mind-bender-puzzles/",
+    "game_description": "Solve progressive logic, cipher, and pattern challenges in this daily updated puzzle anthology. Track your streaks and compete with friends in cooperative rooms.",
+    "game_category": "Puzzle Games",
+    "id": 168,
+    "title": "Mind Bender Puzzles",
+    "description": "Sharpen your logic with rotating puzzle sets that mix ciphers, spatial reasoning, and cooperative challenges updated daily.",
+    "category": "Puzzle Games",
+    "tags": [
+      "Puzzle",
+      "Logic",
+      "Brain Training",
+      "Daily Challenge"
+    ],
+    "image_url": "assets/images/Mind_Bender_Puzzles.jpg",
+    "difficulty": "Medium",
+    "play_time": "10-30 minutes",
+    "age_rating": "E for Everyone"
+  },
+  {
+    "game_name": "Ultimate Sports Arena",
+    "game_link": "https://www.onlinegames.io/ultimate-sports-arena/",
+    "game_description": "Lead your squad through rotating sports events including soccer, basketball, hockey, tennis, and dodgeball. Manage training cards and adapt strategies for every match-up.",
+    "game_category": "Sports Games",
+    "id": 169,
+    "title": "Ultimate Sports Arena",
+    "description": "Switch between five fast-paced sports in one championship season, upgrade your roster with training cards, and strategize to win the arena league.",
+    "category": "Sports Games",
+    "tags": [
+      "Sports",
+      "Multiplayer",
+      "Strategy",
+      "Seasonal"
+    ],
+    "image_url": "assets/images/Ultimate_Sports_Arena.jpg",
+    "difficulty": "Medium",
+    "play_time": "10-25 minutes",
+    "age_rating": "E for Everyone"
   }
 ]

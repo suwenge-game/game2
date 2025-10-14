@@ -10,6 +10,16 @@ let currentGames = gamesData;
 let displayedGames = 6;
 let currentFilter = 'all';
 
+// Mapped detail pages for in-depth guides
+const detailPageMap = {
+    'geometry arrow': 'games/geometry-arrow.html',
+    'bloxd io': 'games/bloxd-io.html',
+    'masked special forces': 'games/masked-special-forces.html',
+    'speed racing championship': 'games/speed-racing-championship.html',
+    'mind bender puzzles': 'games/mind-bender-puzzles.html',
+    'ultimate sports arena': 'games/ultimate-sports-arena.html'
+};
+
 // Hero section slideshow variables
 let currentSlideIndex = 0;
 let slideInterval;
@@ -347,6 +357,13 @@ function createGameCard(game) {
     
     // 生成標籤 HTML
     const tagsHtml = game.tags ? game.tags.map(tag => `<span class="game-tag">${tag}</span>`).join('') : '';
+    const titleKey = (game.title || '').toLowerCase();
+    const nameKey = (game.game_name || '').toLowerCase();
+    const detailUrl = detailPageMap[titleKey] || detailPageMap[nameKey];
+    const detailLinkHtml = detailUrl ? `
+                <a class="info-btn" href="${detailUrl}">
+                    <i class="fas fa-book-open"></i> View Guide
+                </a>` : '';
     
     card.innerHTML = `
         <div class="game-image">
@@ -368,9 +385,12 @@ function createGameCard(game) {
                     <span>${game.category}</span>
                 </div>
             </div>
-            <button class="play-btn" onclick="openGameModal(${game.id})">
-                <i class="fas fa-play"></i> Start Game
-            </button>
+            <div class="card-actions">
+                <button class="play-btn" onclick="openGameModal(${game.id})">
+                    <i class="fas fa-play"></i> Start Game
+                </button>
+                ${detailLinkHtml}
+            </div>
         </div>
     `;
     

@@ -517,6 +517,128 @@ body {
 }
 
 /* 熱門遊戲區塊 */
+.section-header {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 2.5rem auto;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+    color: #1a1a2e;
+}
+
+.section-header p {
+    color: #5b5d72;
+    line-height: 1.7;
+}
+
+.editorial-highlights {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #131a4a 0%, #1e275f 100%);
+    color: white;
+}
+
+.editorial-highlights .section-header h2,
+.weekly-schedule .section-header h2 {
+    color: white;
+}
+
+.editorial-highlights .section-header p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.highlight-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.highlight-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.highlight-link {
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #cfd8ff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.highlight-link:hover {
+    color: white;
+    transform: translateY(-2px);
+}
+
+.weekly-schedule {
+    padding: 80px 0;
+    background: #f4f6ff;
+}
+
+.weekly-schedule .section-header p {
+    color: #5b5d72;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.schedule-card {
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(15, 21, 56, 0.12);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.schedule-day {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-weight: 700;
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+}
+
+.schedule-card a {
+    margin-top: auto;
+    color: #4c54d2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.schedule-card a:hover {
+    text-decoration: underline;
+}
+
 .featured-games {
     padding: 120px 0;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -960,6 +1082,33 @@ body {
 .play-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 30px rgba(102, 126, 234, 0.4);
+}
+
+.card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.2rem;
+}
+
+.info-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(102, 126, 234, 0.35);
+    background: rgba(255, 255, 255, 0.1);
+    color: #4e5ed3;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.info-btn:hover {
+    background: rgba(102, 126, 234, 0.15);
+    color: #3f4cc4;
+    transform: translateY(-2px);
 }
 
 .load-more {

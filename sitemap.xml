@@ -27,6 +27,12 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://deskgamehub.online/pages/game-library.html</loc>
+        <lastmod>2024-12-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
     
     <!-- Content Pages -->
     <url>
@@ -74,6 +80,44 @@
         <lastmod>2024-12-19</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.5</priority>
+    </url>
+    
+    <!-- Game Detail Guides -->
+    <url>
+        <loc>https://deskgamehub.online/games/geometry-arrow.html</loc>
+        <lastmod>2024-12-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://deskgamehub.online/games/bloxd-io.html</loc>
+        <lastmod>2024-12-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://deskgamehub.online/games/masked-special-forces.html</loc>
+        <lastmod>2024-12-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://deskgamehub.online/games/speed-racing-championship.html</loc>
+        <lastmod>2024-12-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.72</priority>
+    </url>
+    <url>
+        <loc>https://deskgamehub.online/games/mind-bender-puzzles.html</loc>
+        <lastmod>2024-12-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.72</priority>
+    </url>
+    <url>
+        <loc>https://deskgamehub.online/games/ultimate-sports-arena.html</loc>
+        <lastmod>2024-12-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.72</priority>
     </url>
     
 </urlset>

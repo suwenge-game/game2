@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Arrow Guide & Strategy Hub | GameHub</title>
+    <meta name="description" content="Complete Geometry Arrow guide covering mechanics, challenge routes, speed-run strategies, and performance tips. Learn how to master every stage and chase leaderboard scores.">
+    <meta name="author" content="GameHub Strategy Team">
+    <link rel="canonical" href="https://deskgamehub.online/games/geometry-arrow.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://deskgamehub.online/games/geometry-arrow.html">
+    <meta property="og:title" content="Geometry Arrow Guide & Strategy Hub">
+    <meta property="og:description" content="Break down Geometry Arrow's precision puzzles with expert tactics, load-outs, and weekly challenges curated by GameHub.">
+    <meta property="og:image" content="https://deskgamehub.online/assets/images/Geometry_Arrow.jpg">
+    <meta property="og:site_name" content="GameHub">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Geometry Arrow Guide & Strategy Hub">
+    <meta property="twitter:description" content="Learn the optimal angles, modifiers, and practice routines to dominate Geometry Arrow.">
+    <meta property="twitter:image" content="https://deskgamehub.online/assets/images/Geometry_Arrow.jpg">
+    <link rel="icon" type="image/png" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="../assets/css/style.css?v=6">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .game-detail-page {
+            background: linear-gradient(135deg, #11153a 0%, #221247 50%, #0d1b2a 100%);
+            color: #f8f9ff;
+            padding: 0 0 4rem 0;
+        }
+        .game-detail-hero {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+            align-items: center;
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero-poster {
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 25px 60px rgba(15, 0, 40, 0.45);
+        }
+        .hero-poster img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .hero-copy h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.04em;
+        }
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .meta-chip {
+            padding: 0.6rem 1.1rem;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(6px);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .content-section {
+            background: rgba(8, 12, 32, 0.85);
+            border-radius: 24px;
+            padding: 2.5rem;
+            margin: 0 auto 2rem auto;
+            max-width: 1100px;
+            box-shadow: 0 15px 40px rgba(8, 0, 35, 0.35);
+        }
+        .content-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+            color: #9aa8ff;
+        }
+        .content-section p {
+            line-height: 1.75;
+            color: #e3e7ff;
+            margin-bottom: 1rem;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .info-card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 18px;
+            padding: 1.5rem;
+            min-height: 160px;
+        }
+        .info-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+            color: #c0c9ff;
+        }
+        .info-card ul {
+            margin: 0;
+            padding-left: 1.2rem;
+            color: #dce1ff;
+        }
+        .info-card li {
+            margin-bottom: 0.5rem;
+        }
+        .cta-banner {
+            margin-top: 2.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .cta-banner a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.95rem 1.8rem;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .cta-primary {
+            background: linear-gradient(135deg, #6a7bff, #8c5eff);
+            color: #fff;
+            box-shadow: 0 10px 25px rgba(108, 96, 255, 0.45);
+        }
+        .cta-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #d6dcff;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .cta-banner a:hover {
+            transform: translateY(-2px);
+        }
+        .weekly-plan {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .plan-card {
+            background: rgba(255, 255, 255, 0.06);
+            padding: 1.6rem;
+            border-radius: 18px;
+        }
+        .plan-card h4 {
+            color: #b7c2ff;
+            margin-bottom: 0.6rem;
+        }
+        .plan-card p {
+            margin: 0 0 0.6rem 0;
+        }
+        @media (max-width: 768px) {
+            .hero-copy h1 {
+                font-size: 2.4rem;
+            }
+            .content-section {
+                padding: 2rem;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Geometry Arrow",
+        "url": "https://deskgamehub.online/games/geometry-arrow.html",
+        "image": "https://deskgamehub.online/assets/images/Geometry_Arrow.jpg",
+        "description": "A precision browser game that challenges players to master physics-based arrow launches across geometric obstacle courses.",
+        "genre": ["Action", "Puzzle", "Skill"],
+        "playMode": "SinglePlayer",
+        "gamePlatform": "Web Browser",
+        "applicationCategory": "Game",
+        "operatingSystem": "HTML5",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.6",
+            "ratingCount": "1284"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "GameHub Strategy Team"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "GameHub"
+        }
+    }
+    </script>
+</head>
+<body class="game-detail-page">
+    <header class="game-detail-hero">
+        <div class="hero-poster">
+            <img src="../assets/images/Geometry_Arrow.jpg" alt="Geometry Arrow neon landscape artwork">
+        </div>
+        <div class="hero-copy">
+            <h1>Geometry Arrow</h1>
+            <p>Geometry Arrow distills the satisfaction of perfect launches into a neon-soaked obstacle gauntlet. Each stage asks you to read angular momentum, anticipate ricochet paths, and bend physics to achieve flawless clears.</p>
+            <div class="hero-meta">
+                <span class="meta-chip"><i class="fas fa-gamepad"></i> Precision Action</span>
+                <span class="meta-chip"><i class="fas fa-stopwatch"></i> 5-15 Minute Sessions</span>
+                <span class="meta-chip"><i class="fas fa-chart-line"></i> Skill Ceiling: High</span>
+                <span class="meta-chip"><i class="fas fa-star"></i> GameHub Rating: 4.6/5</span>
+            </div>
+            <div class="cta-banner">
+                <a class="cta-primary" href="https://www.onlinegames.io/geometry-arrow/" target="_blank" rel="noopener nofollow">
+                    <i class="fas fa-play"></i> 立即试玩
+                </a>
+                <a class="cta-secondary" href="../pages/game-library.html">
+                    <i class="fas fa-compass"></i> 返回游戏库
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>核心玩法解析</h2>
+            <p>Geometry Arrow 的核心在于“预测 + 精准执行”。箭矢沿着你设定的轨迹移动，途中可能触发弹跳垫、重力井、传送门等互动元素。每关设有三颗目标星和一条最佳路线；若要拿到满分，必须预判所有反弹角度，同时保留足够速度达到终点。</p>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>关卡设计亮点</h3>
+                    <ul>
+                        <li>60+ 标准关卡与 20 个周挑战</li>
+                        <li>动态障碍（旋转棱镜、节奏墙）</li>
+                        <li>可重玩隐藏路径与收集品</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>技能曲线</h3>
+                    <ul>
+                        <li>入门：掌握角度和力度条</li>
+                        <li>进阶：利用连跳与风场延迟</li>
+                        <li>高手：结合时间减速与反向传送</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>推荐设备</h3>
+                    <ul>
+                        <li>桌面端 Chrome / Edge 最新版</li>
+                        <li>120Hz 浏览器可更流畅描线</li>
+                        <li>开启硬件加速减少输入延迟</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>高分速成路线</h2>
+            <p>若想在排行榜中占据一席，建议采用以下练习节奏。先巩固基础物理，再逐步挑战高难周常：</p>
+            <div class="weekly-plan">
+                <div class="plan-card">
+                    <h4>第 1 天 · 基础瞄准</h4>
+                    <p>重复练习 1-10 关，专注于“角度设定 + 力度微调”。使用截图工具记录成功轨迹对比。</p>
+                    <p><strong>重点：</strong>掌握 15°、30°、45° 等常用角度与最短路径。</p>
+                </div>
+                <div class="plan-card">
+                    <h4>第 2-3 天 · 高级机制</h4>
+                    <p>解锁传送门与反重力关卡。尝试“倒序预判”：从终点倒推箭矢的进入角度。</p>
+                    <p><strong>练习：</strong>在沙盒模式构建自定义轨迹，验证预判是否成立。</p>
+                </div>
+                <div class="plan-card">
+                    <h4>第 4-7 天 · 竞速挑战</h4>
+                    <p>转入每周时间试炼，加入 GameHub Discord 赛季房间获取对手影像。模拟“无失误跑”。</p>
+                    <p><strong>目标：</strong>将 S 级关卡完成时间压缩到开发者幽灵纪录的 105%以内。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>操作技巧与实战心得</h2>
+            <p>以下技巧来自 GameHub 资深玩家 AuroraX 与 MidnightFrames 的共创笔记，为追求满星通关的玩家提供实战参考：</p>
+            <ul>
+                <li><strong>双段放大图层：</strong>在发射前使用浏览器缩放至 110%，可以更细致地拖动力度条，再在发射后恢复 100%。</li>
+                <li><strong>节拍标记：</strong>节奏墙以 4 拍循环，可用键盘敲击模拟，保持发射节奏稳定。</li>
+                <li><strong>能量保留：</strong>进入重力井时，不要急于改变方向，让箭矢自然加速，出井时才能保持足够动量跨越后续陷阱。</li>
+                <li><strong>影子教学：</strong>开启 Ghost 影像后，每次失败都截取误差最大的节点，制作 GIF 回放，检阅是否提前碰撞或角度偏差。</li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>社区活动与资源</h2>
+            <p>GameHub 每周三推出「几何大师挑战」，排行榜前 50 名可获得专属头像框。想要加速学习，可参考以下资源：</p>
+            <ul>
+                <li><strong>GameHub Discord：</strong>加入 <em>#geometry-strike</em> 频道获取关卡拆解图。</li>
+                <li><strong>教学视频：</strong>我们的媒体团队定期发布 60 秒速看视频，展示最新关卡的最佳解法。</li>
+                <li><strong>反馈通道：</strong>若发现关卡 Bug，可通过 <a href="mailto:games@deskgamehub.online">games@deskgamehub.online</a> 提交，我们会转交开发方。</li>
+            </ul>
+            <p>欢迎将你的速通录像投稿给 GameHub，我们会在“玩家焦点”栏目展示优秀作品。</p>
+        </section>
+    </main>
+
+    <footer class="content-section" style="text-align:center; background: rgba(255,255,255,0.05);">
+        <p style="margin-bottom: 0.5rem;">© 2024 GameHub · Geometry Arrow 指南最后更新：2024-12-22</p>
+        <a href="../pages/contact.html" style="color:#b8c4ff; text-decoration:none; font-weight:600;">联系编辑团队</a>
+    </footer>
+</body>
+</html>

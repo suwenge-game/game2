@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Library & Feature Guides | GameHub</title>
+    <meta name="description" content="浏览 GameHub 精选游戏库，获取原创深度攻略、训练计划与社区活动，掌握每款游戏的制胜策略。">
+    <meta name="author" content="GameHub Content Team">
+    <link rel="canonical" href="https://deskgamehub.online/pages/game-library.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deskgamehub.online/pages/game-library.html">
+    <meta property="og:title" content="GameHub 精选游戏库">
+    <meta property="og:description" content="精选游戏详情页、攻略专题与每周更新，全面提升你的游玩体验。">
+    <meta property="og:image" content="https://deskgamehub.online/assets/images/og-default.png">
+    <link rel="icon" type="image/png" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="../assets/css/style.css?v=6">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0d1026 0%, #1c1a3a 45%, #0b1121 100%);
+            color: #f5f7ff;
+        }
+        .library-hero {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 4rem 2rem 2rem 2rem;
+            text-align: center;
+        }
+        .library-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .library-hero p {
+            color: #d0d5ff;
+            line-height: 1.8;
+        }
+        .badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            justify-content: center;
+            margin-top: 1.6rem;
+        }
+        .badge {
+            padding: 0.55rem 1.1rem;
+            border-radius: 999px;
+            background: rgba(105, 135, 255, 0.12);
+            border: 1px solid rgba(137, 163, 255, 0.35);
+            font-weight: 600;
+            color: #c7d2ff;
+        }
+        .section {
+            max-width: 1100px;
+            margin: 0 auto 2rem auto;
+            background: rgba(14, 19, 40, 0.92);
+            border-radius: 24px;
+            padding: 2.4rem;
+            box-shadow: 0 18px 40px rgba(6, 10, 26, 0.45);
+        }
+        .section h2 {
+            color: #9faeff;
+            margin-bottom: 1.2rem;
+            font-size: 2rem;
+        }
+        .section p {
+            color: #dee3ff;
+            line-height: 1.75;
+        }
+        .guide-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .guide-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 1.6rem;
+            border: 1px solid rgba(143, 161, 255, 0.22);
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .guide-card h3 {
+            color: #b9c7ff;
+        }
+        .guide-card p {
+            margin: 0;
+        }
+        .guide-card a {
+            margin-top: auto;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.4rem;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #6777ff, #8a5fff);
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            width: fit-content;
+        }
+        .weekly-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.4rem;
+            margin-top: 1.4rem;
+        }
+        .weekly-card {
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 18px;
+            padding: 1.6rem;
+        }
+        .weekly-card h4 {
+            color: #c7d2ff;
+            margin-bottom: 0.6rem;
+        }
+        .resource-list ul {
+            padding-left: 1.4rem;
+            color: #dfe5ff;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0 3rem 0;
+            color: #bfcaff;
+        }
+        footer a {
+            color: #d6ddff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        @media (max-width: 768px) {
+            .library-hero h1 {
+                font-size: 2.4rem;
+            }
+            .section {
+                padding: 2rem;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "GameHub Featured Game Guides",
+        "description": "Curated list of in-depth GameHub strategy guides featuring weekly updates and training plans.",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "url": "https://deskgamehub.online/games/geometry-arrow.html",
+                "name": "Geometry Arrow Guide & Strategy Hub"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "url": "https://deskgamehub.online/games/bloxd-io.html",
+                "name": "Bloxd io Battle Royale Playbook"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "url": "https://deskgamehub.online/games/masked-special-forces.html",
+                "name": "Masked Special Forces 战术攻略"
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "url": "https://deskgamehub.online/games/speed-racing-championship.html",
+                "name": "Speed Racing Championship 完整攻略"
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "url": "https://deskgamehub.online/games/mind-bender-puzzles.html",
+                "name": "Mind Bender Puzzles 解谜百科"
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "url": "https://deskgamehub.online/games/ultimate-sports-arena.html",
+                "name": "Ultimate Sports Arena 多项目攻略"
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header class="library-hero">
+        <h1>GameHub 精选游戏库</h1>
+        <p>这是我们正在重点维护的游戏攻略索引。每一篇详情页都由 GameHub 编辑团队和资深玩家协作完成，涵盖核心机制、训练计划、社区活动与外链试玩指引。收藏此页，随时掌握最新更新。</p>
+        <div class="badge-row">
+            <span class="badge">原创评测</span>
+            <span class="badge">训练计划</span>
+            <span class="badge">社区挑战</span>
+            <span class="badge">周更内容</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>重点游戏攻略</h2>
+            <p>以下攻略已完成深度分析，并配套周度训练路线。点击卡片即可进入详情页，了解玩法拆解与进阶技巧。</p>
+            <div class="guide-grid">
+                <div class="guide-card">
+                    <h3>Geometry Arrow</h3>
+                    <p>掌握角度、动量与节奏墙，挑战几何赛道中的高难关卡。附赠 7 日速成计划。</p>
+                    <a href="../games/geometry-arrow.html">阅读指南 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="guide-card">
+                    <h3>Bloxd io</h3>
+                    <p>通过资源循环与建筑压制统治战场，收录建造与爆破组合策略。</p>
+                    <a href="../games/bloxd-io.html">阅读指南 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="guide-card">
+                    <h3>Masked Special Forces</h3>
+                    <p>学习职业战队的数据化战术，完善爆破模式的协同与装置搭配。</p>
+                    <a href="../games/masked-special-forces.html">阅读指南 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="guide-card">
+                    <h3>Speed Racing Championship</h3>
+                    <p>记录 12 条赛道的最佳圈速与调校模板，成为赛季榜首的常客。</p>
+                    <a href="../games/speed-racing-championship.html">阅读指南 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="guide-card">
+                    <h3>Mind Bender Puzzles</h3>
+                    <p>建立系统化解谜流程，保持逻辑敏锐，参与每日挑战。</p>
+                    <a href="../games/mind-bender-puzzles.html">阅读指南 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="guide-card">
+                    <h3>Ultimate Sports Arena</h3>
+                    <p>多项目体育赛季的阵容搭配与训练卡分配，带领团队拿下联赛冠军。</p>
+                    <a href="../games/ultimate-sports-arena.html">阅读指南 <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>每周更新计划</h2>
+            <p>我们为内容团队制定了固定的更新节奏，保证网站持续输出原创文章与社区活动。你可以在下列栏目中找到最新一期的主题。</p>
+            <div class="weekly-grid">
+                <div class="weekly-card">
+                    <h4>周一 · 新游观测站</h4>
+                    <p>对本周上线或热门的 3 款新作进行试玩报告，评估可玩性与潜力。</p>
+                </div>
+                <div class="weekly-card">
+                    <h4>周三 · 策略课堂</h4>
+                    <p>由编辑与社区大神轮流主讲，针对一个热门问题制作分步教学。</p>
+                </div>
+                <div class="weekly-card">
+                    <h4>周五 · 社区快报</h4>
+                    <p>收录玩家投稿、高分回放与比赛战绩，展示 GameHub 社群活力。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section resource-list">
+            <h2>更多资源</h2>
+            <ul>
+                <li><strong>攻略集合：</strong>访问 <a href="game-guides.html">Game Guides</a> 获取分类索引。</li>
+                <li><strong>策略讨论：</strong>加入我们的 <a href="https://discord.gg/gamehub" target="_blank" rel="noopener">Discord</a> 频道，与玩家实时交流。</li>
+                <li><strong>内容投稿：</strong>想分享你的攻略或视频？发送邮件至 <a href="mailto:content@deskgamehub.online">content@deskgamehub.online</a>。</li>
+                <li><strong>商务合作：</strong>品牌赞助、赛事合作可联系 <a href="mailto:business@deskgamehub.online">business@deskgamehub.online</a>。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 GameHub · 游戏库页面最后更新：2024-12-22</p>
+        <p><a href="../index.html">返回首页</a> · <a href="contact.html">联系我们</a></p>
+    </footer>
+</body>
+</html>

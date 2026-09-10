@@ -1,0 +1,45 @@
+# robots.txt for GameHub - Comprehensive Gaming Platform
+# Updated: December 2024
+# Purpose: Guide search engine crawlers for optimal indexing
+
+User-agent: *
+Allow: /
+
+# Disallow crawling of technical files and documentation
+Allow: /assets/
+Allow: /data/
+Disallow: /game-data-collection/
+Disallow: /*.md
+Disallow: /new_word_mining/
+Disallow: /thumbnails/
+
+# Allow crawling of all main content pages
+Allow: /
+Allow: /index.html
+Allow: /pages/
+Allow: /pages/shooting-games.html
+Allow: /pages/action-games.html
+Allow: /pages/game-guides.html
+Allow: /pages/about-us.html
+Allow: /pages/contact.html
+Allow: /pages/privacy-policy.html
+Allow: /pages/terms-of-service.html
+Allow: /pages/game-reviews.html
+Allow: /pages/gaming-tips.html
+Allow: /pages/gaming-news.html
+
+# Allow crawling of essential files
+Allow: /ads.txt
+Allow: /sitemap.xml
+Allow: /favicon.ico
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://deskgamehub.online/sitemap.xml
+
+# GameHub Content Description
+# Unique gaming content: Game reviews, gaming tips, gaming news, 
+# Action games, shooting games, puzzle games, racing games, 
+# Game guides, strategies, and comprehensive gaming platform

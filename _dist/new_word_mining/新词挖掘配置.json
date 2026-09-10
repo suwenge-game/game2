@@ -1,0 +1,175 @@
+{
+  "mining_config": {
+    "update_frequency": "daily",
+    "max_keywords_per_run": 100,
+    "min_potential_score": 5,
+    "save_format": "json"
+  },
+  
+  "data_sources": {
+    "google_trends": {
+      "enabled": true,
+      "keywords": [
+        "browser games 2024",
+        "free online games",
+        "indie games",
+        "puzzle games",
+        "action games",
+        "racing games",
+        "sports games",
+        "simulation games",
+        "idle games",
+        "incremental games",
+        "roguelike games",
+        "battle royale games",
+        "AI games",
+        "WebGL games",
+        "HTML5 games",
+        "mobile games"
+      ]
+    },
+    
+    "reddit": {
+      "enabled": true,
+      "subreddits": [
+        "gaming",
+        "WebGames", 
+        "FreeGames",
+        "IndieGaming",
+        "gamedev",
+        "GameDeals",
+        "ShouldIbuythisgame",
+        "Games"
+      ],
+      "min_score": 100,
+      "min_comments": 10
+    },
+    
+    "steam": {
+      "enabled": true,
+      "categories": [
+        "indie",
+        "casual",
+        "puzzle",
+        "action",
+        "racing",
+        "sports",
+        "simulation"
+      ],
+      "min_players": 1000,
+      "min_rating": 4.0
+    },
+    
+    "social_media": {
+      "enabled": true,
+      "platforms": [
+        "twitter",
+        "youtube",
+        "discord"
+      ],
+      "keywords": [
+        "new browser games",
+        "free online games 2024",
+        "indie game releases",
+        "HTML5 games",
+        "WebGL games"
+      ]
+    }
+  },
+  
+  "keyword_evaluation": {
+    "search_volume_weights": {
+      "high": 3,
+      "medium": 2,
+      "low": 1
+    },
+    "competition_weights": {
+      "low": 3,
+      "medium": 2,
+      "high": 1
+    },
+    "trend_weights": {
+      "rising": 2,
+      "stable": 1,
+      "declining": 0
+    },
+    "relevance_weights": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    }
+  },
+  
+  "output_settings": {
+    "save_json": true,
+    "save_csv": true,
+    "save_markdown": true,
+    "generate_report": true,
+    "email_notifications": false
+  },
+  
+  "game_categories": {
+    "action": {
+      "keywords": ["action games", "fighting games", "shooting games", "adventure games"],
+      "priority": "high"
+    },
+    "puzzle": {
+      "keywords": ["puzzle games", "brain games", "logic games", "word games"],
+      "priority": "high"
+    },
+    "racing": {
+      "keywords": ["racing games", "car games", "driving games", "speed games"],
+      "priority": "medium"
+    },
+    "sports": {
+      "keywords": ["sports games", "football games", "basketball games", "soccer games"],
+      "priority": "medium"
+    },
+    "simulation": {
+      "keywords": ["simulation games", "life simulation", "city building", "farming games"],
+      "priority": "medium"
+    },
+    "indie": {
+      "keywords": ["indie games", "independent games", "creative games", "artistic games"],
+      "priority": "high"
+    }
+  },
+  
+  "competitor_analysis": {
+    "target_websites": [
+      "https://www.kongregate.com",
+      "https://www.newgrounds.com",
+      "https://itch.io",
+      "https://www.crazygames.com",
+      "https://www.miniclip.com"
+    ],
+    "analysis_depth": "medium",
+    "update_frequency": "weekly"
+  },
+  
+  "alerts": {
+    "high_potential_threshold": 7,
+    "trending_threshold": 5,
+    "new_category_threshold": 3,
+    "notification_methods": ["console", "file"]
+  },
+  
+  "integration": {
+    "google_analytics": {
+      "enabled": false,
+      "property_id": ""
+    },
+    "google_search_console": {
+      "enabled": false,
+      "site_url": ""
+    },
+    "ahrefs": {
+      "enabled": false,
+      "api_key": ""
+    },
+    "semrush": {
+      "enabled": false,
+      "api_key": ""
+    }
+  }
+}

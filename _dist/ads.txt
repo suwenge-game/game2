@@ -1,3 +1,0 @@
-# ads.txt file for deskgamehub.online
-# Authorized sellers for this inventory. Managed manually; no template placeholders.
-google.com, pub-9132117639313977, DIRECT, f08c47fec0942fa0

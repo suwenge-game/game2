@@ -300,5 +300,28 @@
         <a href="../pages/contact.html" style="color:#b8c4ff; text-decoration:none; font-weight:600;">联系编辑团队</a>
     </footer>
 <aside class="partner-host" style="max-width:1100px;margin:0 auto 2rem;padding:1rem 1.5rem;border:1px solid #334;border-radius:12px"><strong>About our reviews.</strong> GameHub reviews browser games hosted by their original developers. Play links open the partner host in a new tab; our guides, breakdowns, and session notes are original editorial work. <a href="/pages/about-us.html" style="color:#9aa8ff">More about our review method</a>.</aside>
+
+<!-- retro-v2 -->
+<section class="content-section retro-postmortem" style="max-width:1100px;margin:0 auto 2rem">
+<p class="kicker" style="color:#9aa8ff;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem">Technical post-mortem · Precision action / one-touch physics</p>
+<h2 style="font-size:2rem;margin:0.4rem 0 1.2rem">Geometry Arrow — Technical Post-Mortem</h2>
+
+<h3 style="color:#9aa8ff;font-size:1.4rem;margin:1.6rem 0 0.8rem">Core Game Loop & Mechanics</h3>
+<p style="line-height:1.8;color:#dfe4ff">Geometry Arrow runs on a single-input contract: one touch or click applies a fixed impulse, and everything else is physics. That contract is the whole design — the core loop is read-arrow-pattern, time-impulse, verify-trajectory, repeat, compressed into sessions of 30 seconds to 4 minutes. Progression is not level-gated but skill-gated: the arrow count you survive is the progress bar, and the game tracks personal bests locally rather than through accounts.</p>
+<p style="line-height:1.8;color:#dfe4ff">Input latency handling is the make-or-break implementation detail for this genre. The game samples input on pointerdown rather than click, saving the 100-300ms click-confirmation delay on mobile — the difference between hitting a gap and clipping its edge. On desktop, keyboard spacebar and mouse compete cleanly because both route to the same impulse function. Where the implementation stumbles: rapid double-taps during death-restart transitions occasionally eat an input, a classic state-machine race between the reset routine and the input listener.</p>
+<p style="line-height:1.8;color:#dfe4ff">State management is minimal and correct: position, velocity, current obstacle set, and a seed for obstacle placement. Death is handled by full state reset rather than rollback, which makes deaths feel honest — no rewinding, no partial restarts. The obstacle generator is seeded, so repeated runs on the same session see consistent patterns, which rewards memorization within a session without making runs across sessions deterministic.</p>
+
+<h3 style="color:#9aa8ff;font-size:1.4rem;margin:1.6rem 0 0.8rem">Level Design Philosophy</h3>
+<p style="line-height:1.8;color:#dfe4ff">Difficulty scales through geometry, not speed. Early obstacle sets use wide gaps and slow horizontal scroll; later sets introduce vertical oscillation, moving obstacles, and gap sizes that shrink below the arrow's own hitbox height. The curve is well-judged: deaths in the first minute are almost always timing errors, while deaths past the two-minute mark are reading errors — the player saw the pattern but misjudged its phase.</p>
+<p style="line-height:1.8;color:#dfe4ff">Onboarding friction is near zero: no tutorial screens, no text. The first obstacle set functions as the tutorial because its geometry only requires one tap to pass. This is the correct choice for the genre — one-touch games live and die by whether a first-time player understands the contract within five seconds, and Geometry Arrow clears that bar.</p>
+<p style="line-height:1.8;color:#dfe4ff">Reward feedback is understated: a counter, a subtle trail effect, and streak recognition through pattern shifts. No confetti, no combo popups. The restraint fits the precision-frustration loop — loud rewards after a death would cheapen the retry impulse that makes one-more-run games work.</p>
+
+<h3 style="color:#9aa8ff;font-size:1.4rem;margin:1.6rem 0 0.8rem">Technical Implementation</h3>
+<p style="line-height:1.8;color:#dfe4ff">Rendering is 2D canvas at a fixed logical resolution, scaled to viewport with letterboxing. This is the right call over WebGL for a two-dimensional flat-shaded game: canvas 2D pushes this sprite count at 60fps trivially on any phone from the last five years, and DOM manipulation would introduce layout thrash on every frame — the arrow and obstacles must not be DOM nodes.</p>
+<p style="line-height:1.8;color:#dfe4ff">Asset optimization is visible in the payload: flat colors instead of textures, procedural shapes over images, and a single sprite sheet for the arrow states. The physics step is fixed-timestep with render interpolation — the correct pattern for a game where frame drops must not change jump arcs. Fixed timestep means a dropped frame moves simulation time forward in lockstep, so physics stays deterministic even when rendering stutters.</p>
+<p style="line-height:1.8;color:#dfe4ff">Where a WebGL upgrade would pay: particle effects on death and trail rendering could batch into a single draw call. As implemented, the per-frame draw count stays low enough that canvas 2D is not the bottleneck. The honest technical verdict: this is a well-scoped implementation that chose boring technology for boring (correct) reasons.</p>
+
+<p style="margin-top:1.6rem"><a href="/dev-notes/" style="color:#9aa8ff">Developer case studies</a> expand the engineering patterns this review references · <a href="/reviews/action-games/" style="color:#9aa8ff">Back to the review portal</a></p>
+</section>
 </body>
 </html>
